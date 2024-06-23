@@ -1,3 +1,5 @@
+# TODO: add a file dialog to select the CSV file
+
 import tkinter as tk
 from tkinter import ttk, messagebox
 import pandas as pd
@@ -12,6 +14,8 @@ for index, row in df.iterrows():
         course_data1[course].append(slot)
     else:
         course_data1[course] = [slot]
+
+# TODO: read data from Lab_Slots.csv
 
 selected_slots = {}  # Dictionary to store selected slots and their colors
 
@@ -38,11 +42,29 @@ def add_dropdowns():
         color = color_var.get()
         if slot != "N/A" and color != "Choose Color":
             slot_parts = slot.split('+')
-            # Check if any part of the slot is already selected
+            # Check if any part of the slot is already selected or conflicts with existing selections
+            conflict_pairs = {
+                "E1": ["STC2", "STA2"],
+                "STC2": ["E1"],
+                "E2": ["STC1", "STA1"],
+                "STC1": ["E2"],
+                "STA2": ["E1"],
+                "STA1": ["E2"],
+                "G1": ["TFF1", "TEE1"],
+                "TFF1": ["G1"],
+                "G2": ["TFF2", "TEE2"],
+                "TFF2": ["G2"],
+                "TEE1": ["G1"],
+                "TEE2": ["G2"]
+            }
             for part in slot_parts:
                 if part in selected_slots:
                     messagebox.showwarning("Slot Clash", f"The slot '{part}' is already filled by another course.")
                     return
+                for conflict in conflict_pairs.get(part, []):
+                    if conflict in selected_slots:
+                        messagebox.showwarning("Slot Clash", f"The slot '{part}' cannot be selected when '{conflict}' is already selected.")
+                        return
             for part in slot_parts:
                 selected_slots[part] = color_dict[color]
         update_table()
@@ -98,16 +120,16 @@ def add_dropdowns():
 
 # Function to update the table with selected slot colors
 def update_table():
-    for i in range(1, len(table_data)):  # Rows (excluding header row)
-        for j in range(1, len(table_data[i])):  # Columns (excluding first column)
-            slot = table_data[i][j]
+    for I in range(1, len(table_data)):  # Rows (excluding header row)
+        for j in range(1, len(table_data[I])):  # Columns (excluding first column)
+            slot = table_data[I][j]
             slot_parts = slot.split('+')
             for part in slot_parts:
                 if part in selected_slots:
-                    labels[i][j].config(bg=selected_slots[part])
+                    labels[I][j].config(bg=selected_slots[part])
                     break  # Use the first matching part's color
                 else:
-                    labels[i][j].config(bg="white")
+                    labels[I][j].config(bg="white")
 
 # Create the main window
 root = tk.Tk()
@@ -137,11 +159,11 @@ table_frame.pack(pady=10)
 
 # Create a grid of labels and keep a reference to the labels
 labels = []
-for i in range(len(table_data)):  # Rows
+for I in range(len(table_data)):  # Rows
     row_labels = []
-    for j in range(len(table_data[i])):  # Columns
-        label = tk.Label(table_frame, text=table_data[i][j], width=10, height=2, borderwidth=1, relief="solid")
-        label.grid(row=i, column=j)
+    for j in range(len(table_data[I])):  # Columns
+        label = tk.Label(table_frame, text=table_data[I][j], width=10, height=2, borderwidth=1, relief="solid")
+        label.grid(row=I, column=j)
         row_labels.append(label)
     labels.append(row_labels)
 
@@ -171,3 +193,6 @@ color_dict = {
 
 # Start the Tkinter event loop
 root.mainloop()
+
+# TODO: add a submit button to save the selected slots to a CSV file
+# TODO: ics file generation for the whole semester
