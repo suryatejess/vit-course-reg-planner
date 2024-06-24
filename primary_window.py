@@ -1,11 +1,20 @@
-# TODO: add a file dialog to select the CSV file
-
 import tkinter as tk
 from tkinter import ttk, messagebox
 import pandas as pd
+from tkinter import filedialog
+import tabula
+
+# Create the main window
+root = tk.Tk()
+root.title("Course Code and Slot Selector")
+
+# file dialog box
+root.theory_dialog = filedialog.askopenfilename(initialdir="/", title="Select the theory slots csv file", filetypes = (("pdf files", "*.pdf"), ("all files", "*.*6")) )
+tabula.read_pdf(root.theory_dialog, pages="all")
+tabula.convert_into(root.theory_dialog, root.theory_dialog[:-3]+"csv", pages="all", output_format="csv")
 
 # Read data from CSV into a DataFrame
-df = pd.read_csv("/Users/suryatejess/Documents/Projects/gui-course-reg/data/Theory_Slots.csv")
+df = pd.read_csv(root.theory_dialog[:-3]+"csv")
 course_data1 = {}
 for index, row in df.iterrows():
     course = row['COURSE CODE']
@@ -130,10 +139,6 @@ def update_table():
                     break  # Use the first matching part's color
                 else:
                     labels[I][j].config(bg="white")
-
-# Create the main window
-root = tk.Tk()
-root.title("Course Code and Slot Selector")
 
 # Create a frame for the '+' button
 plus_button_frame = tk.Frame(root)
