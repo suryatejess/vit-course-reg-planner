@@ -8,13 +8,8 @@ import tabula
 root = tk.Tk()
 root.title("Course Code and Slot Selector")
 
-# File dialog box for theory slots
-theory_dialog = filedialog.askopenfilename(initialdir="/", title="Select the theory slots PDF file", filetypes=(("PDF files", "*.pdf"), ("all files", "*.*")))
-tabula.read_pdf(theory_dialog, pages="all")
-tabula.convert_into(theory_dialog, theory_dialog[:-3] + "csv", pages="all", output_format="csv")
-
 # Read data from theory CSV into a DataFrame
-df_theory = pd.read_csv(theory_dialog[:-3] + "csv")
+df_theory = pd.read_csv('data/Theory_Slots.csv')
 course_data_theory = {}
 for index, row in df_theory.iterrows():
     course = row['COURSE CODE']
@@ -24,13 +19,8 @@ for index, row in df_theory.iterrows():
     else:
         course_data_theory[course] = [slot]
 
-# File dialog box for lab slots
-lab_dialog = filedialog.askopenfilename(initialdir="/", title="Select the lab slots PDF file", filetypes=(("PDF files", "*.pdf"), ("all files", "*.*")))
-tabula.read_pdf(lab_dialog, pages="all")
-tabula.convert_into(lab_dialog, lab_dialog[:-3] + "csv", pages="all", output_format="csv")
-
 # Read data from lab CSV into a DataFrame
-df_lab = pd.read_csv(lab_dialog[:-3] + "csv")
+df_lab = pd.read_csv('data/Lab_Slots.csv')
 course_data_lab = {}
 for index, row in df_lab.iterrows():
     course = row['COURSE CODE']
