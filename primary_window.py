@@ -137,7 +137,11 @@ def add_dropdowns():
     color_dropdown.pack(side=tk.LEFT, padx=5)
 
     # Apply Color Button
-    apply_button = ttk.Button(frame, text="Apply Color", command=apply_color)
+    def handle_button_click():
+        apply_color()
+        apply_button.config(state=tk.DISABLED)
+
+    apply_button = ttk.Button(frame, text="Apply Color", command=handle_button_click)
     apply_button.pack(side=tk.RIGHT, padx=5)
 
     # Cancel Button
