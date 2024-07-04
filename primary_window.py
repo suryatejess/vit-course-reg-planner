@@ -83,11 +83,13 @@ def add_dropdowns():
             for part in slot_parts:
                 if part in selected_slots:
                     messagebox.showwarning("Slot Clash", f"The slot '{part}' is already filled by another course.")
+                    frame.destroy()
                     return
                 if part in conflict_dict:
                     for conflict in conflict_dict[part]:
                         if conflict in selected_slots:
                             messagebox.showwarning("Slot Clash", f"The slot '{part}' cannot be selected when '{conflict}' is already selected.")
+                            frame.destroy()
                             return
             for part in slot_parts:
                 selected_slots[part] = color_dict[color]
