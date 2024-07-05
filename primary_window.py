@@ -56,6 +56,7 @@ for index, row in df_lab.iterrows():
         course_data_lab[course] = [slot]
 
 selected_slots = {}  # Dictionary to store selected slots and their colors
+selected_course_codes = {}  # Dictionary to store course code and their slots (slots as string)
 
 # Define the table data
 table_data = [
@@ -96,19 +97,27 @@ def add_dropdowns():
     def remove_dropdowns():
         frame.destroy()
         frames_list.remove(frame)
-        # Remove slot from selected_slots if present
+        # Remove slot from selecteld_sots if present
         slot = slot_var.get()
         slot_parts = slot.split('+')
         for part in slot_parts:
             if part in selected_slots:
                 del selected_slots[part]
+        # Remove course_code from selected_course_codes if present
+        course = course_code_var.get()
+        del selected_course_codes[course]
+
         update_table()
 
     def apply_color():
         slot = slot_var.get()
         color = color_var.get()
+        course = course_code_var.get()
+
         if slot != "N/A" and color != "Choose Color":
             slot_parts = slot.split('+')
+
+            # Check for slot conflicts
             for part in slot_parts:
                 if part in selected_slots:
                     messagebox.showwarning("Slot Clash", f"The slot '{part}' is already filled by another course.")
@@ -118,13 +127,23 @@ def add_dropdowns():
                 if part in conflict_dict:
                     for conflict in conflict_dict[part]:
                         if conflict in selected_slots:
-                            messagebox.showwarning("Slot Clash", f"The slot '{part}' cannot be selected when '{conflict}' is already selected.")
+                            messagebox.showwarning("Slot Clash",
+                                                   f"The slot '{part}' cannot be selected when '{conflict}' is already selected.")
                             frame.destroy()
                             frames_list.remove(frame)
                             return
+
+            # Update selected_slots with the new color
             for part in slot_parts:
                 selected_slots[part] = color_dict[color]
-        update_table()
+
+            # Update the selected_course_codes dictionary
+            selected_course_codes[course] = slot
+
+            # Update the table to reflect the new color
+            update_table()
+        else:
+            messagebox.showwarning("Incomplete Selection", "Please select a slot and a color.")
 
     course_code_var = tk.StringVar()
     slot_var = tk.StringVar()
@@ -222,6 +241,9 @@ def reset_table():
     frames_list.clear()  # Clear the list after destroying all frames
     update_table()
 
+    global selected_course_codes
+    selected_course_codes.clear()
+
 reset_button = ttk.Button(plus_button_frame, text="Reset", command=reset_table)
 reset_button.pack()
 
@@ -243,8 +265,10 @@ color_dict = {
     "Blue": "#0000FF",
     "Yellow": "#FFFF00",
     "Purple": "#800080",
-    "Orange": "#FFA500",
+    "Orange": "#FFA500"
 }
 
 root.mainloop()
 root2.mainloop()
+
+print(selected_course_codes)
