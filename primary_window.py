@@ -1,12 +1,27 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
 import pandas as pd
-from tkinter import filedialog
-import tabula
 
 # Create the main window
 root = tk.Tk()
 root.title("Course Code and Slot Selector")
+
+root2 = tk.Tk()
+root2.title("Course Code and Course Name reference")
+
+df_2_theory = pd.read_csv('data/Theory_Slots.csv')
+df_2_lab = pd.read_csv('data/Lab_Slots.csv')
+df_2_theory = df_2_theory[['COURSE CODE', 'COURSE TITLE']]
+df_2_lab = df_2_lab[['COURSE CODE', 'COURSE TITLE']]
+# remove "COURSE CODE" duplicates along with their respective "COURSE TITLE"
+df_2_theory = df_2_theory[['COURSE CODE', 'COURSE TITLE']].drop_duplicates()
+df_2_lab = df_2_lab[['COURSE CODE', 'COURSE TITLE']].drop_duplicates()
+# combine df_2_theory and df_2_lab into a dataframe called df_2
+frames = [df_2_theory, df_2_lab]
+df_2 = pd.concat(frames)
+df_2 = df_2[['COURSE CODE', 'COURSE TITLE']].drop_duplicates()
+
+secondary_window = tk.Label(root, text='hi')
 
 # Read data from theory CSV into a DataFrame
 df_theory = pd.read_csv('data/Theory_Slots.csv')
@@ -63,10 +78,14 @@ def update_slot_dropdown(event, slot_dropdown, course_code_var, course_data):
     slots = course_data.get(selected_course, ["N/A"])
     slot_dropdown['values'] = slots
 
+# List to store frame references
+frames_list = []
+
 # Function to add new set of dropdown menus
 def add_dropdowns():
     def remove_dropdowns():
         frame.destroy()
+        frames_list.remove(frame)
         # Remove slot from selected_slots if present
         slot = slot_var.get()
         slot_parts = slot.split('+')
@@ -84,12 +103,14 @@ def add_dropdowns():
                 if part in selected_slots:
                     messagebox.showwarning("Slot Clash", f"The slot '{part}' is already filled by another course.")
                     frame.destroy()
+                    frames_list.remove(frame)
                     return
                 if part in conflict_dict:
                     for conflict in conflict_dict[part]:
                         if conflict in selected_slots:
                             messagebox.showwarning("Slot Clash", f"The slot '{part}' cannot be selected when '{conflict}' is already selected.")
                             frame.destroy()
+                            frames_list.remove(frame)
                             return
             for part in slot_parts:
                 selected_slots[part] = color_dict[color]
@@ -103,6 +124,7 @@ def add_dropdowns():
     # Create a new frame for each set of dropdowns
     frame = tk.Frame(main_frame)
     frame.pack(pady=5, anchor='w')
+    frames_list.append(frame)  # Add frame reference to list
 
     # Theory/ Lab Radio Buttons
     theory_radio = ttk.Radiobutton(frame, text="Theory", variable=course_type_var, value="Theory", command=lambda: update_slot_dropdown(None, slot_dropdown, course_code_var, course_data_theory))
@@ -181,6 +203,18 @@ plus_button_frame.pack(pady=5)
 plus_button = ttk.Button(plus_button_frame, text="+ Add", command=add_dropdowns)
 plus_button.pack()
 
+# Create the reset button
+def reset_table():
+    global selected_slots
+    selected_slots.clear()
+    for frame in frames_list:
+        frame.destroy()
+    frames_list.clear()  # Clear the list after destroying all frames
+    update_table()
+
+reset_button = ttk.Button(plus_button_frame, text="Reset", command=reset_table)
+reset_button.pack()
+
 # Create a frame for the table
 table_frame = tk.Frame(main_frame)
 table_frame.pack(pady=10)
@@ -203,3 +237,4 @@ color_dict = {
 }
 
 root.mainloop()
+root2.mainloop()
