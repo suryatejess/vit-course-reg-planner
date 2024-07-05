@@ -7,7 +7,7 @@ root = tk.Tk()
 root.title("Course Code and Slot Selector")
 
 root2 = tk.Tk()
-root2.title("Course Code and Course Name reference")
+root2.title("Course Code and Course Name Reference")
 
 df_2_theory = pd.read_csv('data/Theory_Slots.csv')
 df_2_lab = pd.read_csv('data/Lab_Slots.csv')
@@ -20,6 +20,16 @@ df_2_lab = df_2_lab[['COURSE CODE', 'COURSE TITLE']].drop_duplicates()
 frames = [df_2_theory, df_2_lab]
 df_2 = pd.concat(frames)
 df_2 = df_2[['COURSE CODE', 'COURSE TITLE']].drop_duplicates()
+
+# Display df_2 in root2 window
+tree = ttk.Treeview(root2, columns=("Course Code", "Course Title"), show='headings')
+tree.heading("Course Code", text="Course Code")
+tree.heading("Course Title", text="Course Title")
+tree.pack(fill=tk.BOTH, expand=True)
+
+# Insert data into treeview
+for index, row in df_2.iterrows():
+    tree.insert("", tk.END, values=(row['COURSE CODE'], row['COURSE TITLE']))
 
 secondary_window = tk.Label(root, text='hi')
 
