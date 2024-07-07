@@ -87,8 +87,47 @@ slot_timings =
 ...
 }
 
-selected_course_codes = 
-{'ECE3010': 'C1+TC1', 'CHY1001': 'G2'}
+selected_course_codes = # example
+{'ECE3010': 'C1+TC1', 'CHY1001': 'G2'} 
+'''
+
+
+def export_cal_csv():
+
+    cal_load = pd.read_csv('data/saved_table.csv')
+
+    # Data frame with COURSE CODE, SLOT, TIMINGS, DAY with each slot part and its respective timings and day
+    cal_exp = pd.DataFrame(columns=['COURSE CODE', 'SLOT', 'TIMINGS', 'DAY'])
+    for index, row in cal_load.iterrows():
+        course_code = row['COURSE CODE']
+        slot = row['SLOT']
+        slot_parts = slot.split('+')
+        for part in slot_parts:
+            if part in slot_timings:
+                for time_day in slot_timings[part]:
+                    time, day = time_day.split('+')
+                    new_row = pd.DataFrame({'COURSE CODE': [course_code], 'SLOT': [part], 'TIMINGS': [time], 'DAY': [day]})
+                    cal_exp = pd.concat([cal_exp, new_row], ignore_index=True)
+
+    # export this to csv file named 'export_ics.csv'
+    cal_exp.to_csv('data/export_ics.csv', index=False)
+
+'''
+def ics_calendar_button():
+    # data frame with COURSE CODE, SLOT, TIMINGS, DAY with each slot part and its respective timings and day
+    cal_exp = pd.DataFrame(columns=['COURSE CODE', 'SLOT', 'TIMINGS', 'DAY'])
+    for index, row in cal_load.iterrows():
+        course_code = row['COURSE CODE']
+        slot = row['SLOT']
+        slot_parts = slot.split('+')
+        for part in slot_parts:
+            for key, value in slot_timings.items():
+                if part == key:
+                    for i in value:
+                        day, time = i.split('+')
+                        cal_exp = cal_exp.append(
+                            {'COURSE CODE': course_code, 'SLOT': part, 'TIMINGS': time, 'DAY': day}, ignore_index=True)
+    print(cal_exp)
 '''
 
 
@@ -287,6 +326,10 @@ save_button = ttk.Button(plus_button_frame, text="Save time table", command=save
 save_button.pack()
 
 
+export_calendar_button = ttk.Button(plus_button_frame, text="Export Calendar", command=export_cal_csv)
+export_calendar_button.pack()
+
+
 # Create a frame for the table
 table_frame = tk.Frame(main_frame)
 table_frame.pack(pady=10)
@@ -310,3 +353,4 @@ color_dict = {
 
 root.mainloop()
 root2.mainloop()
+
