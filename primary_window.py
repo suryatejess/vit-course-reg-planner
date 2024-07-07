@@ -244,6 +244,7 @@ def update_table():
                 else:
                     labels[I][j].config(bg="white")
 
+
 # Create a frame for the course selection and table
 main_frame = tk.Frame(root)
 main_frame.pack(side=tk.TOP, fill='both', expand=True)
@@ -270,6 +271,21 @@ def reset_table():
 
 reset_button = ttk.Button(plus_button_frame, text="Reset", command=reset_table)
 reset_button.pack()
+
+# Create the save button
+def save_table():
+    if len(selected_course_codes) == 0:
+        messagebox.showwarning("No Selection", "Please select at least one course code and slot.")
+        return
+
+    # Create a DataFrame to store the selected course codes and slots
+    df = pd.DataFrame(selected_course_codes.items(), columns=['COURSE CODE', 'SLOT'])
+    df.to_csv('data/saved_table.csv', index=False)
+    messagebox.showinfo("Selection Saved", "The selected slots have been saved successfully. Add the Venue/Location manually if you wanna make use of the calendar feature")
+
+save_button = ttk.Button(plus_button_frame, text="Save time table", command=save_table)
+save_button.pack()
+
 
 # Create a frame for the table
 table_frame = tk.Frame(main_frame)
