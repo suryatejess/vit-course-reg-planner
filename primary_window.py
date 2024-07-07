@@ -60,13 +60,37 @@ selected_course_codes = {}  # Dictionary to store course code and their slots (s
 
 # Define the table data
 table_data = [
-    ["Day/Time",  "8 - 9","9 - 10","10 - 11","11 - 12","12 - 1","1 - 1:30","2 - 3","3 - 4","4 - 5","5 - 6","6 - 7","7 - 7:30"],
-    ["Tue","TF1+L1","TA1+L2","E1+STC2+L3","D1+L4","B1+L5","L6","TA2+L31","E2+STC1+L32","D2+L33","B2+L34","TF2+L35","L36"],
-    ["Wed","TCC1+L7","E1+STA2+L8","G1+TFF1+L9","TBB1+L10","TDD1+L11","L12","E2+STA1+L37","G2+TFF2+L38","TBB2+L39","TDD2+L40","TCC2+L41","L42"],
-    ["Thu","TE1+L13","C1+L14","A1+L15","F1+L16","D1+L17","L18","C2+L43","A2+L44","F2+L45","D2+L46","TE2+L47","L48"],
-    ["Fri","TAA1+L19","TD1+L20","B1+L21","G1+TEE1+L22","C1+L23","L24","TD2+L49","B2+L50","G2+TEE2+L51","C2+L52","TAA2+L53","L54"],
-    ["Sat","TG1+L25","TB1+L26","TC1+L27","A1+L28","F1+L29","L30","TB2+L55","TC2+L56","A2+L57","F2+L58","TG2+L59","L60"]
+    ["Day/Time",  "08:00 - 09:00","09:00 - 10:00","10:00 - 11:00","11:00 - 12:00","12:00 - 13:00","13 - 13:30","14:00 - 15:00","15:00 - 16:00","16:00 - 17:00","17:00 - 18:00","18:00 - 19:00","19:00 - 19:30"],
+    ["Tuesday","TF1+L1","TA1+L2","E1+STC2+L3","D1+L4","B1+L5","L6","TA2+L31","E2+STC1+L32","D2+L33","B2+L34","TF2+L35","L36"],
+    ["Wednesday","TCC1+L7","E1+STA2+L8","G1+TFF1+L9","TBB1+L10","TDD1+L11","L12","E2+STA1+L37","G2+TFF2+L38","TBB2+L39","TDD2+L40","TCC2+L41","L42"],
+    ["Thursday","TE1+L13","C1+L14","A1+L15","F1+L16","D1+L17","L18","C2+L43","A2+L44","F2+L45","D2+L46","TE2+L47","L48"],
+    ["Friday","TAA1+L19","TD1+L20","B1+L21","G1+TEE1+L22","C1+L23","L24","TD2+L49","B2+L50","G2+TEE2+L51","C2+L52","TAA2+L53","L54"],
+    ["Saturday","TG1+L25","TB1+L26","TC1+L27","A1+L28","F1+L29","L30","TB2+L55","TC2+L56","A2+L57","F2+L58","TG2+L59","L60"]
 ]
+
+# Calendar
+slot_timings = {}
+for i in range(1, len(table_data)):
+    for j in range(1, len(table_data[i])):
+        slot_parts = table_data[i][j].split("+")
+        for part in slot_parts:
+            if part not in slot_timings:
+                slot_timings[part] = [table_data[0][j] +"+"+ table_data[i][0]]
+            elif part in slot_timings:
+                slot_timings[part].append(table_data[0][j]+"+"+table_data[i][0])
+'''
+slot_timings = 
+{
+'B1': ['12:00 - 13:00+Tuesday', '10:00 - 11:00+Friday'],
+'L5': ['12:00 - 13:00+Tuesday'],
+...
+...
+}
+
+selected_course_codes = 
+{'ECE3010': 'C1+TC1', 'CHY1001': 'G2'}
+'''
+
 
 # Define conflicting slots
 conflict_pairs = []
@@ -270,5 +294,3 @@ color_dict = {
 
 root.mainloop()
 root2.mainloop()
-
-print(selected_course_codes)
