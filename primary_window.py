@@ -1,6 +1,9 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
 import pandas as pd
+from ics import Calendar, Event
+from datetime import datetime, timedelta
+import pytz
 
 # Create the main window
 root = tk.Tk()
@@ -94,7 +97,7 @@ selected_course_codes = # example
 
 def export_cal_csv():
 
-    cal_load = pd.read_csv('data/saved_table.csv')
+    cal_load = pd.read_csv('user_data/saved_table.csv')
 
     # Data frame with COURSE CODE, SLOT, TIMINGS, DAY with each slot part and its respective timings and day
     cal_exp = pd.DataFrame(columns=['COURSE CODE', 'SLOT', 'TIMINGS', 'DAY'])
@@ -110,25 +113,72 @@ def export_cal_csv():
                     cal_exp = pd.concat([cal_exp, new_row], ignore_index=True)
 
     # export this to csv file named 'export_ics.csv'
-    cal_exp.to_csv('data/export_ics.csv', index=False)
+    cal_exp.to_csv('user_data/export_ics.csv', index=False)
 
-'''
-def ics_calendar_button():
-    # data frame with COURSE CODE, SLOT, TIMINGS, DAY with each slot part and its respective timings and day
-    cal_exp = pd.DataFrame(columns=['COURSE CODE', 'SLOT', 'TIMINGS', 'DAY'])
-    for index, row in cal_load.iterrows():
-        course_code = row['COURSE CODE']
-        slot = row['SLOT']
-        slot_parts = slot.split('+')
-        for part in slot_parts:
-            for key, value in slot_timings.items():
-                if part == key:
-                    for i in value:
-                        day, time = i.split('+')
-                        cal_exp = cal_exp.append(
-                            {'COURSE CODE': course_code, 'SLOT': part, 'TIMINGS': time, 'DAY': day}, ignore_index=True)
-    print(cal_exp)
-'''
+def export_cal_ics():
+    import pandas as pd
+    from ics import Calendar, Event
+    from datetime import datetime, timedelta
+    import pytz
+
+    # File paths
+    csv_file_path = 'user_data/export_ics.csv'
+    ics_file_path = 'time_table_calendar.ics'
+
+    # Load the CSV data
+    df = pd.read_csv(csv_file_path)
+
+    # Define the time zone for India
+    tz = pytz.timezone('Asia/Kolkata')
+
+    # Define the end date
+    end_date = datetime(2024, 9, 9, tzinfo=tz)
+
+    # Create a new calendar
+    calendar = Calendar()
+
+    # Function to parse time and create events
+    def create_event(row):
+        start_time_str, end_time_str = row['TIMINGS'].split(' - ')
+        start_time = datetime.strptime(start_time_str, '%H:%M').time()
+        end_time = datetime.strptime(end_time_str, '%H:%M').time()
+
+        # Map days to weekdays
+        day_map = {
+            'Monday': 0,
+            'Tuesday': 1,
+            'Wednesday': 2,
+            'Thursday': 3,
+            'Friday': 4,
+            'Saturday': 5,
+            'Sunday': 6
+        }
+        day_of_week = day_map[row['DAY']]
+
+        # Starting date (Assuming the first week is the week starting from today)
+        start_date = datetime.now(tz) + timedelta(days=(day_of_week - datetime.now(tz).weekday()) % 7)
+
+        # Create events for each week until the end date
+        current_date = start_date
+        while current_date <= end_date:
+            event = Event()
+            event.name = row['COURSE CODE']
+            event.begin = tz.localize(datetime.combine(current_date.date(), start_time))
+            event.end = tz.localize(datetime.combine(current_date.date(), end_time))
+            event.location = row['VENUE']
+
+            calendar.events.add(event)
+
+            current_date += timedelta(weeks=1)
+
+    # Create events for each row in the CSV
+    df.apply(create_event, axis=1)
+
+    # Write the calendar to an ICS file
+    with open(ics_file_path, 'w') as f:
+        f.writelines(calendar)
+
+    print(f'ICS file has been created: {ics_file_path}')
 
 
 # Define conflicting slots
@@ -319,7 +369,7 @@ def save_table():
 
     # Create a DataFrame to store the selected course codes and slots
     df = pd.DataFrame(selected_course_codes.items(), columns=['COURSE CODE', 'SLOT'])
-    df.to_csv('data/saved_table.csv', index=False)
+    df.to_csv('user_data/saved_table.csv', index=False)
     messagebox.showinfo("Selection Saved", "The selected slots have been saved successfully. Add the Venue/Location manually if you wanna make use of the calendar feature")
 
 save_button = ttk.Button(plus_button_frame, text="Save time table", command=save_table)
@@ -328,6 +378,12 @@ save_button.pack()
 
 export_calendar_button = ttk.Button(plus_button_frame, text="Export Calendar", command=export_cal_csv)
 export_calendar_button.pack()
+
+
+make_ics_file_button = ttk.Button(plus_button_frame, text="Make ics file", command=export_cal_ics)
+make_ics_file_button.pack()
+
+
 
 
 # Create a frame for the table
