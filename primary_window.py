@@ -413,7 +413,7 @@ plus_button_frame.pack(pady=5)
 
 # Create the '+' button
 plus_button = ttk.Button(plus_button_frame, text="+ Add", command=add_dropdowns)
-plus_button.pack()
+plus_button.grid(row=0, column=0, padx=5)
 
 # Create the reset button
 def reset_table():
@@ -428,7 +428,7 @@ def reset_table():
     selected_course_codes.clear()
 
 reset_button = ttk.Button(plus_button_frame, text="Reset", command=reset_table)
-reset_button.pack()
+reset_button.grid(row=0, column=1, padx=5)
 
 # Create the save button
 def save_table():
@@ -442,15 +442,10 @@ def save_table():
     messagebox.showinfo("Selection Saved", "The selected slots have been saved successfully. Add the Venue/Location manually if you wanna make use of the calendar feature")
 
 save_button = ttk.Button(plus_button_frame, text="Save time table", command=save_table)
-save_button.pack()
-
-
-# export_calendar_button = ttk.Button(plus_button_frame, text="Export Calendar", command=export_cal_csv)
-# export_calendar_button.pack()
-
+save_button.grid(row=0, column=2, padx=5)
 
 make_ics_file_button = ttk.Button(plus_button_frame, text="Make ics file", command=export_cal_ics)
-make_ics_file_button.pack()
+make_ics_file_button.grid(row=0, column=3, padx=5)
 
 
 
