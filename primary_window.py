@@ -96,6 +96,7 @@ selected_course_codes = # example
 
 
 def export_cal_csv():
+    save_table()
 
     cal_load = pd.read_csv('user_data/saved_table.csv')
 
@@ -116,11 +117,6 @@ def export_cal_csv():
     cal_exp.to_csv('user_data/export_ics.csv', index=False)
 
 def export_cal_ics():
-    import pandas as pd
-    from ics import Calendar, Event
-    from datetime import datetime, timedelta
-    import pytz
-
     # File paths
     csv_file_path = 'user_data/export_ics.csv'
     ics_file_path = 'time_table_calendar.ics'
