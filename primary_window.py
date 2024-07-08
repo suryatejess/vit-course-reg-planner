@@ -138,7 +138,7 @@ def export_cal_ics():
         tz = pytz.timezone('Asia/Kolkata')
 
         # Define the end date
-        end_date = datetime(2024, 9, 9, tzinfo=tz)
+        end_date = datetime(2024, 11, 25, tzinfo=tz)
 
         # Create a new calendar
         calendar = Calendar()
@@ -190,7 +190,6 @@ def export_cal_ics():
         # Redirect to the YouTube video
         import webbrowser
         webbrowser.open("https://youtu.be/MKM90u7pf3U?si=st3S1adZ5g-QcpJ9&t=65")
-
     # File paths
     csv_file_path = 'user_data/export_ics.csv'
     ics_file_path = 'time_table_calendar.ics'
@@ -202,7 +201,7 @@ def export_cal_ics():
     tz = pytz.timezone('Asia/Kolkata')
 
     # Define the end date
-    end_date = datetime(2024, 9, 9, tzinfo=tz)
+    end_date = datetime(2024, 11, 25, tzinfo=tz)
 
     # Create a new calendar
     calendar = Calendar()
@@ -210,8 +209,8 @@ def export_cal_ics():
     # Function to parse time and create events
     def create_event(row):
         start_time_str, end_time_str = row['TIMINGS'].split(' - ')
-        start_time = datetime.strptime(start_time_str, '%H:%M').time()
-        end_time = datetime.strptime(end_time_str, '%H:%M').time()
+        start_time = datetime.strptime(start_time_str, '%H:%M')
+        end_time = datetime.strptime(end_time_str, '%H:%M')
 
         # Map days to weekdays
         day_map = {
@@ -226,16 +225,16 @@ def export_cal_ics():
         day_of_week = day_map[row['DAY']]
 
         # Starting date (Assuming the first week is the week starting from today)
-        start_date = datetime.now(tz) + timedelta(days=(day_of_week - datetime.now(tz).weekday()) % 7)
+        start_date = datetime.now(tz).date() + timedelta(days=(day_of_week - datetime.now(tz).weekday()) % 7)
 
         # Create events for each week until the end date
         current_date = start_date
-        while current_date <= end_date:
+        while current_date <= end_date.date():
             event = Event()
             event.name = row['COURSE CODE']
-            event.begin = tz.localize(datetime.combine(current_date.date(), start_time))
-            event.end = tz.localize(datetime.combine(current_date.date(), end_time))
-            event.location = row['VENUE']
+            event.begin = tz.localize(datetime.combine(current_date, start_time.time()))
+            event.end = tz.localize(datetime.combine(current_date, end_time.time()))
+            event.location = row.get('VENUE', '')
 
             calendar.events.add(event)
 
