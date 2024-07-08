@@ -117,6 +117,80 @@ def export_cal_csv():
     cal_exp.to_csv('user_data/export_ics.csv', index=False)
 
 def export_cal_ics():
+    export_cal_csv()
+
+    # Put a dialog box with 'added' and 'dont know how to add' buttons
+    # add an if condition so that the following code will get executed only if the user clikcs 'added' button
+    # when the user clicks 'dont know how to add button', it will redirect the user to open browser and play this youtube video : https://youtu.be/MKM90u7pf3U?si=st3S1adZ5g-QcpJ9&t=65
+
+    # Ask the user if they have added the venue/location
+    user_response = messagebox.askquestion("Venue/Location", "Have you added the venue/location information?")
+
+    if user_response == 'yes':
+        # File paths
+        csv_file_path = 'user_data/export_ics.csv'
+        ics_file_path = 'time_table_calendar.ics'
+
+        # Load the CSV data
+        df = pd.read_csv(csv_file_path)
+
+        # Define the time zone for India
+        tz = pytz.timezone('Asia/Kolkata')
+
+        # Define the end date
+        end_date = datetime(2024, 9, 9, tzinfo=tz)
+
+        # Create a new calendar
+        calendar = Calendar()
+
+        # Function to parse time and create events
+        def create_event(row):
+            start_time_str, end_time_str = row['TIMINGS'].split(' - ')
+            start_time = datetime.strptime(start_time_str, '%H:%M').time()
+            end_time = datetime.strptime(end_time_str, '%H:%M').time()
+
+            # Map days to weekdays
+            day_map = {
+                'Monday': 0,
+                'Tuesday': 1,
+                'Wednesday': 2,
+                'Thursday': 3,
+                'Friday': 4,
+                'Saturday': 5,
+                'Sunday': 6
+            }
+            day_of_week = day_map[row['DAY']]
+
+            # Starting date (Assuming the first week is the week starting from today)
+            start_date = datetime.now(tz) + timedelta(days=(day_of_week - datetime.now(tz).weekday()) % 7)
+
+            # Create events for each week until the end date
+            current_date = start_date
+            while current_date <= end_date:
+                event = Event()
+                event.name = row['COURSE CODE']
+                event.begin = tz.localize(datetime.combine(current_date.date(), start_time))
+                event.end = tz.localize(datetime.combine(current_date.date(), end_time))
+                event.location = row['VENUE']
+
+                calendar.events.add(event)
+
+                current_date += timedelta(weeks=1)
+
+        # Create events for each row in the CSV
+        df.apply(create_event, axis=1)
+
+        # Write the calendar to an ICS file
+        with open(ics_file_path, 'w') as f:
+            f.writelines(calendar)
+
+        print(f'ICS file has been created: {ics_file_path}')
+
+    elif user_response == 'no':
+        # Redirect to the YouTube video
+        import webbrowser
+        webbrowser.open("https://youtu.be/MKM90u7pf3U?si=st3S1adZ5g-QcpJ9&t=65")
+
     # File paths
     csv_file_path = 'user_data/export_ics.csv'
     ics_file_path = 'time_table_calendar.ics'
@@ -372,8 +446,8 @@ save_button = ttk.Button(plus_button_frame, text="Save time table", command=save
 save_button.pack()
 
 
-export_calendar_button = ttk.Button(plus_button_frame, text="Export Calendar", command=export_cal_csv)
-export_calendar_button.pack()
+# export_calendar_button = ttk.Button(plus_button_frame, text="Export Calendar", command=export_cal_csv)
+# export_calendar_button.pack()
 
 
 make_ics_file_button = ttk.Button(plus_button_frame, text="Make ics file", command=export_cal_ics)
