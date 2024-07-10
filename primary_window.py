@@ -397,10 +397,10 @@ def update_table():
             slot_parts = slot.split('+')
             for part in slot_parts:
                 if part in selected_slots:
-                    labels[I][j].config(bg=selected_slots[part])
+                    labels[I][j].config(bg=selected_slots[part], fg="black")
                     break  # Use the first matching part's color
                 else:
-                    labels[I][j].config(bg="white")
+                    labels[I][j].config(bg="white", fg="black")
 
 
 # Create a frame for the course selection and table
@@ -473,4 +473,3 @@ color_dict = {
 
 root.mainloop()
 root2.mainloop()
-
