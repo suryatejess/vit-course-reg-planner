@@ -465,10 +465,18 @@ for I in range(len(table_data)):  # Rows
 color_dict = {
     "Red": "#FF0000",
     "Green": "#00FF00",
-    "Blue": "#0000FF",
     "Yellow": "#FFFF00",
     "Purple": "#800080",
-    "Orange": "#FFA500"
+    "Orange": "#FFA500",
+    "Crimson Red" : "#DC143C",
+    "Deep Pink" : "#FF1493",
+    "Coral Orange" : "#FF6F61",
+    "Teal" : "#20C997",
+    "Royal Blue" : "#4169E1",
+    "Forest Green" : "#228B22",
+    "Dark Orchid" : "#9932CC",
+    "Hot Pink" : "#FF69B4",
+    "Beige" : "#F5F5DC"
 }
 
 root.mainloop()
