@@ -9,32 +9,32 @@ import pytz
 root = tk.Tk()
 root.title("Course Code and Slot Selector")
 
-root2 = tk.Tk()
-root2.title("Course Code and Course Name Reference")
+# root2 = tk.Tk()
+# root2.title("Course Code and Course Name Reference")
 
-df_2_theory = pd.read_csv('data/Theory_Slots.csv')
-df_2_lab = pd.read_csv('data/Lab_Slots.csv')
-df_2_theory = df_2_theory[['COURSE CODE', 'COURSE TITLE']]
-df_2_lab = df_2_lab[['COURSE CODE', 'COURSE TITLE']]
-# remove "COURSE CODE" duplicates along with their respective "COURSE TITLE"
-df_2_theory = df_2_theory[['COURSE CODE', 'COURSE TITLE']].drop_duplicates()
-df_2_lab = df_2_lab[['COURSE CODE', 'COURSE TITLE']].drop_duplicates()
-# combine df_2_theory and df_2_lab into a dataframe called df_2
-frames = [df_2_theory, df_2_lab]
-df_2 = pd.concat(frames)
-df_2 = df_2[['COURSE CODE', 'COURSE TITLE']].drop_duplicates()
-
-# Display df_2 in root2 window
-tree = ttk.Treeview(root2, columns=("Course Code", "Course Title"), show='headings')
-tree.heading("Course Code", text="Course Code")
-tree.heading("Course Title", text="Course Title")
-tree.pack(fill=tk.BOTH, expand=True)
-
-# Insert data into treeview
-for index, row in df_2.iterrows():
-    tree.insert("", tk.END, values=(row['COURSE CODE'], row['COURSE TITLE']))
-
-secondary_window = tk.Label(root, text='hi')
+# df_2_theory = pd.read_csv('data/Theory_Slots.csv')
+# df_2_lab = pd.read_csv('data/Lab_Slots.csv')
+# df_2_theory = df_2_theory[['COURSE CODE', 'COURSE TITLE']]
+# df_2_lab = df_2_lab[['COURSE CODE', 'COURSE TITLE']]
+# # remove "COURSE CODE" duplicates along with their respective "COURSE TITLE"
+# df_2_theory = df_2_theory[['COURSE CODE', 'COURSE TITLE']].drop_duplicates()
+# df_2_lab = df_2_lab[['COURSE CODE', 'COURSE TITLE']].drop_duplicates()
+# # combine df_2_theory and df_2_lab into a dataframe called df_2
+# frames = [df_2_theory, df_2_lab]
+# df_2 = pd.concat(frames)
+# df_2 = df_2[['COURSE CODE', 'COURSE TITLE']].drop_duplicates()
+#
+# # Display df_2 in root2 window
+# tree = ttk.Treeview(root2, columns=("Course Code", "Course Title"), show='headings')
+# tree.heading("Course Code", text="Course Code")
+# tree.heading("Course Title", text="Course Title")
+# tree.pack(fill=tk.BOTH, expand=True)
+#
+# # Insert data into treeview
+# for index, row in df_2.iterrows():
+#     tree.insert("", tk.END, values=(row['COURSE CODE'], row['COURSE TITLE']))
+#
+# secondary_window = tk.Label(root, text='hi')
 
 # Read data from theory CSV into a DataFrame
 df_theory = pd.read_csv('data/Theory_Slots.csv')
@@ -64,11 +64,11 @@ selected_course_codes = {}  # Dictionary to store course code and their slots (s
 # Define the table data
 table_data = [
     ["Day/Time",  "08:00 - 09:00","09:00 - 10:00","10:00 - 11:00","11:00 - 12:00","12:00 - 13:00","13 - 13:30","14:00 - 15:00","15:00 - 16:00","16:00 - 17:00","17:00 - 18:00","18:00 - 19:00","19:00 - 19:30"],
-    ["Tuesday","TF1+L1","TA1+L2","E1+STC2+L3","D1+L4","B1+L5","L6","TA2+L31","E2+STC1+L32","D2+L33","B2+L34","TF2+L35","L36"],
-    ["Wednesday","TCC1+L7","E1+STA2+L8","G1+TFF1+L9","TBB1+L10","TDD1+L11","L12","E2+STA1+L37","G2+TFF2+L38","TBB2+L39","TDD2+L40","TCC2+L41","L42"],
-    ["Thursday","TE1+L13","C1+L14","A1+L15","F1+L16","D1+L17","L18","C2+L43","A2+L44","F2+L45","D2+L46","TE2+L47","L48"],
-    ["Friday","TAA1+L19","TD1+L20","B1+L21","G1+TEE1+L22","C1+L23","L24","TD2+L49","B2+L50","G2+TEE2+L51","C2+L52","TAA2+L53","L54"],
-    ["Saturday","TG1+L25","TB1+L26","TC1+L27","A1+L28","F1+L29","L30","TB2+L55","TC2+L56","A2+L57","F2+L58","TG2+L59","L60"]
+    ["Tuesday","TEE1+L1","A1+L2","B1+L3","C1+L4","D1+L5","L6","E2+SE1+L31","A2+L32","TBB2+G2+L33","C2+L34","TDD2+L35","L36"],
+    ["Wednesday","TG1+L7","D1+L8","F1+L9","E1+L10","B1+L11","L12","E2+SC1+L37","D2+L38","F2+L39","B2+L40","TCC2+L41","L42"],
+    ["Thursday","TF1+L13","TC1+L14","TD1+L15","A1+L16","TFF1+L17","L18","B2+L43","F2+L44","TD2+L45","TA2+L46","TG2+L47","L48"],
+    ["Friday","TCC1+L19","TB1+L20","TAA1+G1+L21","TE1+L22","TF1+L23","L24","C2+L49","TB2+L50","TAA2+G2+L51","TE2+SD1+L52","TF2+L53","L54"],
+    ["Saturday","TDD1+L25","C1+L26","A1+L27","TBB1+G1+L28","E1+L29","L30","D2+L55","TC2+L56","A2+L57","SF1+L58","TEE2+L59","L60"]
 ]
 
 # Calendar
@@ -480,4 +480,4 @@ color_dict = {
 }
 
 root.mainloop()
-root2.mainloop()
+# root2.mainloop()
