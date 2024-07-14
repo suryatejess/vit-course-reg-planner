@@ -7,7 +7,7 @@ This is a GUI application that lets you design your timetable quick and efficien
 
 ## Tutorial
 
-Check out this [YouTube video](https://www.youtube.com/watch?v=MKM90u7pf3U) for a detailed tutorial.
+Check out this [YouTube video](https://youtu.be/TWTq3HGRehc?si=qYV5W9-gFurCl5Mc) for a detailed tutorial.
 
 #### Prerquisites 
 You need to have Python and pip installed on your computer. You can download Python from [python.org](https://www.python.org/) and pip usually comes bundled with it.

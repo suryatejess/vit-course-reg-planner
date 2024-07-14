@@ -189,7 +189,7 @@ def export_cal_ics():
     elif user_response == 'no':
         # Redirect to the YouTube video
         import webbrowser
-        webbrowser.open("https://youtu.be/MKM90u7pf3U?si=st3S1adZ5g-QcpJ9&t=65")
+        webbrowser.open("https://youtu.be/TWTq3HGRehc?si=TCVVuZdlwNJdzfBg&t=103")
     # File paths
     csv_file_path = 'user_data/export_ics.csv'
     ics_file_path = 'time_table_calendar.ics'
@@ -476,7 +476,12 @@ color_dict = {
     "Forest Green" : "#228B22",
     "Dark Orchid" : "#9932CC",
     "Hot Pink" : "#FF69B4",
-    "Beige" : "#F5F5DC"
+    "Lemon Chiffon": "#FFFACD",
+    "Lavender": "#E6E6FA",
+    "Light Steel Blue": "#B0C4DE",
+    "Pale Turquoise": "#AFEEEE",
+    "Peach": "#FFDAB9",
+    "Pale Goldenrod" : "#EEE8AA"
 }
 
 root.mainloop()
