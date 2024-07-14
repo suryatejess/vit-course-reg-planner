@@ -67,7 +67,7 @@ table_data = [
     ["Tuesday","TEE1+L1","A1+L2","B1+L3","C1+L4","D1+L5","L6","E2+SE1+L31","A2+L32","TBB2+G2+L33","C2+L34","TDD2+L35","L36"],
     ["Wednesday","TG1+L7","D1+L8","F1+L9","E1+L10","B1+L11","L12","E2+SC1+L37","D2+L38","F2+L39","B2+L40","TCC2+L41","L42"],
     ["Thursday","TF1+L13","TC1+L14","TD1+L15","A1+L16","TFF1+L17","L18","B2+L43","F2+L44","TD2+L45","TA2+L46","TG2+L47","L48"],
-    ["Friday","TCC1+L19","TB1+L20","TAA1+G1+L21","TE1+L22","TF1+L23","L24","C2+L49","TB2+L50","TAA2+G2+L51","TE2+SD1+L52","TF2+L53","L54"],
+    ["Friday","TCC1+L19","TB1+L20","TAA1+G1+L21","TE1+L22","F1+L23","L24","C2+L49","TB2+L50","TAA2+G2+L51","TE2+SD1+L52","TF2+L53","L54"],
     ["Saturday","TDD1+L25","C1+L26","A1+L27","TBB1+G1+L28","E1+L29","L30","D2+L55","TC2+L56","A2+L57","SF1+L58","TEE2+L59","L60"]
 ]
 
