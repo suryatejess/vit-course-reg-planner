@@ -138,7 +138,7 @@ def export_cal_ics():
         tz = pytz.timezone('Asia/Kolkata')
 
         # Define the end date
-        end_date = datetime(2024, 11, 25, tzinfo=tz)
+        end_date = datetime(2024, 4, 16, tzinfo=tz)
 
         # Create a new calendar
         calendar = Calendar()
@@ -201,7 +201,7 @@ def export_cal_ics():
     tz = pytz.timezone('Asia/Kolkata')
 
     # Define the end date
-    end_date = datetime(2024, 11, 25, tzinfo=tz)
+    end_date = datetime(2024, 4, 27, tzinfo=tz)
 
     # Create a new calendar
     calendar = Calendar()
