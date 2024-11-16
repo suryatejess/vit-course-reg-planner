@@ -1,365 +1,405 @@
 COURSE CODE,COURSE TITLE,SLOT
-CSE1005,Software Engineering,L10+L11
-CSE1005,Software Engineering,L10+L11
-CSE1005,Software Engineering,L14+L15
-CSE1005,Software Engineering,L14+L15
-CSE1005,Software Engineering,L2+L3
-CSE1005,Software Engineering,L2+L3
-CSE1005,Software Engineering,L20+L21
-CSE1005,Software Engineering,L20+L21
-CSE1005,Software Engineering,L22+L23
-CSE1005,Software Engineering,L22+L23
-CSE1005,Software Engineering,L26+L27
-CSE1005,Software Engineering,L26+L27
-CSE1005,Software Engineering,L28+L29
-CSE1005,Software Engineering,L28+L29
-CSE1005,Software Engineering,L31+L32
-CSE1005,Software Engineering,L31+L32
-CSE1005,Software Engineering,L33+L34
-CSE1005,Software Engineering,L33+L34
-CSE1005,Software Engineering,L35+L36
-CSE1005,Software Engineering,L37+L38
-CSE1005,Software Engineering,L37+L38
-CSE1005,Software Engineering,L39+L40
-CSE1005,Software Engineering,L39+L40
-CSE1005,Software Engineering,L4+L5
-CSE1005,Software Engineering,L4+L5
-CSE1005,Software Engineering,L41+L42
-CSE1005,Software Engineering,L41+L42
-CSE1005,Software Engineering,L43+L44
-CSE1005,Software Engineering,L43+L44
-CSE1005,Software Engineering,L45+L46
-CSE1005,Software Engineering,L45+L46
-CSE1005,Software Engineering,L47+L48
-CSE1005,Software Engineering,L47+L48
-CSE1005,Software Engineering,L49+L50
-CSE1005,Software Engineering,L49+L50
-CSE1005,Software Engineering,L51+L52
-CSE1005,Software Engineering,L51+L52
-CSE1005,Software Engineering,L53+L54
-CSE1005,Software Engineering,L53+L54
-CSE1005,Software Engineering,L55+L56
-CSE1005,Software Engineering,L55+L56
-CSE1005,Software Engineering,L8+L9
-CSE1005,Software Engineering,L8+L9
-CSE1006,Foundations for Data Analytics,L10+L11
-CSE1006,Foundations for Data Analytics,L14+L15
-CSE1006,Foundations for Data Analytics,L16+L17
-CSE1006,Foundations for Data Analytics,L20+L21
-CSE1006,Foundations for Data Analytics,L22+L23
-CSE1006,Foundations for Data Analytics,L33+L34
-CSE1006,Foundations for Data Analytics,L35+L36
-CSE1006,Foundations for Data Analytics,L39+L40
-CSE1006,Foundations for Data Analytics,L4+L5
-CSE1006,Foundations for Data Analytics,L43+L44
-CSE1006,Foundations for Data Analytics,L45+L46
-CSE1006,Foundations for Data Analytics,L49+L50
-CSE1006,Foundations for Data Analytics,L51+L52
-CSE1006,Foundations for Data Analytics,L53+L54
-CSE1007,Introduction to Cryptography,L14+L15
-CSE1007,Introduction to Cryptography,L26+L27
-CSE1007,Introduction to Cryptography,L35+L36
-CSE1007,Introduction to Cryptography,L4+L5
-CSE1007,Introduction to Cryptography,L45+L46
-CSE1007,Introduction to Cryptography,L49+L50
-CSE1022,Introduction to Programming,L10+L11
-CSE1022,Introduction to Programming,L10+L11
-CSE1022,Introduction to Programming,L14+L15
-CSE1022,Introduction to Programming,L14+L15
-CSE1022,Introduction to Programming,L2+L3
-CSE1022,Introduction to Programming,L2+L3
-CSE1022,Introduction to Programming,L2+L3
-CSE1022,Introduction to Programming,L20+L21
-CSE1022,Introduction to Programming,L20+L21
-CSE1022,Introduction to Programming,L20+L21
-CSE1022,Introduction to Programming,L22+L23
-CSE1022,Introduction to Programming,L22+L23
-CSE1022,Introduction to Programming,L26+L27
-CSE1022,Introduction to Programming,L26+L27
-CSE1022,Introduction to Programming,L28+L29
-CSE1022,Introduction to Programming,L28+L29
-CSE1022,Introduction to Programming,L31+L32
-CSE1022,Introduction to Programming,L31+L32
-CSE1022,Introduction to Programming,L31+L32
-CSE1022,Introduction to Programming,L33+L34
-CSE1022,Introduction to Programming,L33+L34
-CSE1022,Introduction to Programming,L35+L36
-CSE1022,Introduction to Programming,L35+L36
-CSE1022,Introduction to Programming,L37+L38
-CSE1022,Introduction to Programming,L37+L38
-CSE1022,Introduction to Programming,L39+L40
-CSE1022,Introduction to Programming,L39+L40
-CSE1022,Introduction to Programming,L4+L5
-CSE1022,Introduction to Programming,L4+L5
-CSE1022,Introduction to Programming,L41+L42
-CSE1022,Introduction to Programming,L41+L42
-CSE1022,Introduction to Programming,L41+L42
-CSE1022,Introduction to Programming,L43+L44
-CSE1022,Introduction to Programming,L43+L44
-CSE1022,Introduction to Programming,L45+L46
-CSE1022,Introduction to Programming,L45+L46
-CSE1022,Introduction to Programming,L47+L48
-CSE1022,Introduction to Programming,L47+L48
-CSE1022,Introduction to Programming,L47+L48
-CSE1022,Introduction to Programming,L49+L50
-CSE1022,Introduction to Programming,L49+L50
-CSE1022,Introduction to Programming,L51+L52
-CSE1022,Introduction to Programming,L51+L52
-CSE1022,Introduction to Programming,L53+L54
-CSE1022,Introduction to Programming,L55+L56
-CSE1022,Introduction to Programming,L55+L56
-CSE1022,Introduction to Programming,L55+L56
-CSE1022,Introduction to Programming,L8+L9
-CSE1022,Introduction to Programming,L8+L9
-CSE2001,Data Structures and Algorithms,L10+L11
-CSE2001,Data Structures and Algorithms,L10+L11
-CSE2001,Data Structures and Algorithms,L14+L15
-CSE2001,Data Structures and Algorithms,L14+L15
-CSE2001,Data Structures and Algorithms,L2+L3
-CSE2001,Data Structures and Algorithms,L2+L3
-CSE2001,Data Structures and Algorithms,L20+L21
-CSE2001,Data Structures and Algorithms,L20+L21
-CSE2001,Data Structures and Algorithms,L22+L23
-CSE2001,Data Structures and Algorithms,L22+L23
-CSE2001,Data Structures and Algorithms,L26+L27
-CSE2001,Data Structures and Algorithms,L26+L27
-CSE2001,Data Structures and Algorithms,L28+L29
-CSE2001,Data Structures and Algorithms,L28+L29
-CSE2001,Data Structures and Algorithms,L31+L32
-CSE2001,Data Structures and Algorithms,L31+L32
-CSE2001,Data Structures and Algorithms,L33+L34
-CSE2001,Data Structures and Algorithms,L33+L34
-CSE2001,Data Structures and Algorithms,L35+L36
-CSE2001,Data Structures and Algorithms,L35+L36
-CSE2001,Data Structures and Algorithms,L35+L36
-CSE2001,Data Structures and Algorithms,L37+L38
-CSE2001,Data Structures and Algorithms,L37+L38
-CSE2001,Data Structures and Algorithms,L39+L40
-CSE2001,Data Structures and Algorithms,L39+L40
-CSE2001,Data Structures and Algorithms,L4+L5
-CSE2001,Data Structures and Algorithms,L4+L5
-CSE2001,Data Structures and Algorithms,L41+L42
-CSE2001,Data Structures and Algorithms,L41+L42
-CSE2001,Data Structures and Algorithms,L41+L42
-CSE2001,Data Structures and Algorithms,L43+L44
-CSE2001,Data Structures and Algorithms,L43+L44
-CSE2001,Data Structures and Algorithms,L43+L44
-CSE2001,Data Structures and Algorithms,L45+L46
-CSE2001,Data Structures and Algorithms,L45+L46
-CSE2001,Data Structures and Algorithms,L45+L46
-CSE2001,Data Structures and Algorithms,L47+L48
-CSE2001,Data Structures and Algorithms,L47+L48
-CSE2001,Data Structures and Algorithms,L47+L48
-CSE2001,Data Structures and Algorithms,L49+L50
-CSE2001,Data Structures and Algorithms,L49+L50
-CSE2001,Data Structures and Algorithms,L51+L52
-CSE2001,Data Structures and Algorithms,L51+L52
-CSE2001,Data Structures and Algorithms,L53+L54
-CSE2001,Data Structures and Algorithms,L53+L54
-CSE2001,Data Structures and Algorithms,L55+L56
-CSE2001,Data Structures and Algorithms,L55+L56
-CSE2001,Data Structures and Algorithms,L55+L56
-CSE2001,Data Structures and Algorithms,L8+L9
-CSE2001,Data Structures and Algorithms,L8+L9
-CSE2008,Operating Systems,L10+L11
-CSE2008,Operating Systems,L10+L11
-CSE2008,Operating Systems,L14+L15
-CSE2008,Operating Systems,L14+L15
-CSE2008,Operating Systems,L2+L3
-CSE2008,Operating Systems,L2+L3
-CSE2008,Operating Systems,L20+L21
-CSE2008,Operating Systems,L20+L21
-CSE2008,Operating Systems,L22+L23
-CSE2008,Operating Systems,L22+L23
-CSE2008,Operating Systems,L26+L27
-CSE2008,Operating Systems,L28+L29
-CSE2008,Operating Systems,L28+L29
-CSE2008,Operating Systems,L31+L32
-CSE2008,Operating Systems,L31+L32
-CSE2008,Operating Systems,L33+L34
-CSE2008,Operating Systems,L33+L34
-CSE2008,Operating Systems,L35+L36
-CSE2008,Operating Systems,L35+L36
-CSE2008,Operating Systems,L37+L38
-CSE2008,Operating Systems,L37+L38
-CSE2008,Operating Systems,L39+L40
-CSE2008,Operating Systems,L39+L40
-CSE2008,Operating Systems,L4+L5
-CSE2008,Operating Systems,L4+L5
-CSE2008,Operating Systems,L41+L42
-CSE2008,Operating Systems,L41+L42
-CSE2008,Operating Systems,L43+L44
-CSE2008,Operating Systems,L43+L44
-CSE2008,Operating Systems,L45+L46
-CSE2008,Operating Systems,L45+L46
-CSE2008,Operating Systems,L47+L48
-CSE2008,Operating Systems,L47+L48
-CSE2008,Operating Systems,L49+L50
-CSE2008,Operating Systems,L49+L50
-CSE2008,Operating Systems,L51+L52
-CSE2008,Operating Systems,L51+L52
-CSE2008,Operating Systems,L53+L54
-CSE2008,Operating Systems,L53+L54
-CSE2008,Operating Systems,L55+L56
-CSE2008,Operating Systems,L55+L56
-CSE2008,Operating Systems,L8+L9
-CSE2008,Operating Systems,L8+L9
-CSE2011,Cyber Security and Digital Forensics,L22+L23
-CSE2011,Cyber Security and Digital Forensics,L33+L34
-CSE2011,Cyber Security and Digital Forensics,L37+L38
-CSE3001,Agile Development Process,L2+L3
-CSE3001,Agile Development Process,L26+L27
-CSE3001,Agile Development Process,L31+L32
-CSE3001,Agile Development Process,L51+L52
-CSE3008,Introduction to Machine Learning,L2+L3
-CSE3008,Introduction to Machine Learning,L20+L21
-CSE3008,Introduction to Machine Learning,L22+L23
-CSE3008,Introduction to Machine Learning,L26+L27
-CSE3008,Introduction to Machine Learning,L28+L29
-CSE3008,Introduction to Machine Learning,L31+L32
-CSE3008,Introduction to Machine Learning,L31+L32
-CSE3008,Introduction to Machine Learning,L33+L34
-CSE3008,Introduction to Machine Learning,L35+L36
-CSE3008,Introduction to Machine Learning,L37+L38
-CSE3008,Introduction to Machine Learning,L39+L40
-CSE3008,Introduction to Machine Learning,L41+L42
-CSE3008,Introduction to Machine Learning,L43+L44
-CSE3008,Introduction to Machine Learning,L45+L46
-CSE3008,Introduction to Machine Learning,L47+L48
-CSE3008,Introduction to Machine Learning,L49+L50
-CSE3008,Introduction to Machine Learning,L51+L52
-CSE3008,Introduction to Machine Learning,L53+L54
-CSE3008,Introduction to Machine Learning,L55+L56
-CSE3008,Introduction to Machine Learning,L8+L9
-CSE3009,No SQL Databases,L16+L17
-CSE3009,No SQL Databases,L28+L29
-CSE3009,No SQL Databases,L41+L42
-CSE3009,No SQL Databases,L47+L48
-CSE3009,No SQL Databases,L49+L50
-CSE3009,No SQL Databases,L53+L54
-CSE3009,No SQL Databases,L55+L56
-CSE3014,Software Design with UML,L39+L40
-CSE3014,Software Design with UML,L4+L5
-CSE3014,Software Design with UML,L45+L46
-CSE3014,Software Design with UML,L57+L58
-CSE4012,UI UX User Experience Design,L16+L17
-CSE4023,Introduction to Blockchain Technology,L22+L23
-CSE4023,Introduction to Blockchain Technology,L28+L29
-CSE4023,Introduction to Blockchain Technology,L41+L42
-CSE4043,Intrusion Detection and Prevention System,L26+L27
-CSE4043,Intrusion Detection and Prevention System,L57+L58
-ECE2003,Control Systems Engineering,L2+L3
-ECE2007,Digital Signal Processing,L14+L15
-ECE2007,Digital Signal Processing,L55+L56
-ECE2009,Data Acquisition and Transmission Systems,L4+L5
-ECE2010,Digital System Design for ASICs and FPGAs,L39+L40
-ECE3005,CMOS VLSI Design,L16+L17
-ECE3018,IoT Fundamentals,L43+L44
-ECE4003,Embedded C Programming and Linux Development,L8+L9
-ECE4005,SOC Design,L57+L58
-ECE4020,Digital Video Processing,L16+L17
-MAT2001,Numerical Methods for Engineers,L10+L11
-MAT2001,Numerical Methods for Engineers,L31+L32
-MAT2001,Numerical Methods for Engineers,L53+L54
-MEC2003,Strength of Materials,L39+L40
-MEC2003,Strength of Materials,L8+L9
-MEC2004,Fluid Mechanics,L20+L21
-MEC2004,Fluid Mechanics,L43+L44
-MEC2020,Computer Aided Design and Manufacturing,L28+L29
-MEC3001,Heat and Mass Transfer,L39+L40
-MEC3001,Heat and Mass Transfer,L55+L56
-MEC3004,Machine Design,L37+L38
-MEC3004,Machine Design,L51+L52
-MEC3005,Automation in Manufacturing,L14+L15
-MEC3015,Advanced Machining Processes,L16+L17
-MEC3028,Robot Programming,L33+L34
-MEC3029,Machining Processes and Workshop Technology,L45+L46
-MEC3029,Machining Processes and Workshop Technology,L57+L58
-MEC4003,Internal Combustion Engines,L2+L3
-MEC4008,Automobile Engineering,L4+L5
-MGT1001,Ethics and Values,L10+L11
-MGT1001,Ethics and Values,L10+L11
-MGT1001,Ethics and Values,L14+L15
-MGT1001,Ethics and Values,L14+L15
-MGT1001,Ethics and Values,L2+L3
-MGT1001,Ethics and Values,L20+L21
-MGT1001,Ethics and Values,L20+L21
-MGT1001,Ethics and Values,L22+L23
-MGT1001,Ethics and Values,L22+L23
-MGT1001,Ethics and Values,L22+L23
-MGT1001,Ethics and Values,L26+L27
-MGT1001,Ethics and Values,L26+L27
-MGT1001,Ethics and Values,L28+L29
-MGT1001,Ethics and Values,L28+L29
-MGT1001,Ethics and Values,L31+L32
-MGT1001,Ethics and Values,L31+L32
-MGT1001,Ethics and Values,L33+L34
-MGT1001,Ethics and Values,L33+L34
-MGT1001,Ethics and Values,L35+L36
-MGT1001,Ethics and Values,L35+L36
-MGT1001,Ethics and Values,L37+L38
-MGT1001,Ethics and Values,L37+L38
-MGT1001,Ethics and Values,L39+L40
-MGT1001,Ethics and Values,L39+L40
-MGT1001,Ethics and Values,L4+L5
-MGT1001,Ethics and Values,L41+L42
-MGT1001,Ethics and Values,L41+L42
-MGT1001,Ethics and Values,L43+L44
-MGT1001,Ethics and Values,L43+L44
-MGT1001,Ethics and Values,L45+L46
-MGT1001,Ethics and Values,L45+L46
-MGT1001,Ethics and Values,L47+L48
-MGT1001,Ethics and Values,L47+L48
-MGT1001,Ethics and Values,L49+L50
-MGT1001,Ethics and Values,L49+L50
-MGT1001,Ethics and Values,L51+L52
-MGT1001,Ethics and Values,L53+L54
-MGT1001,Ethics and Values,L53+L54
-MGT1001,Ethics and Values,L55+L56
-MGT1001,Ethics and Values,L55+L56
-MGT1001,Ethics and Values,L8+L9
-SWE1002,Principles of Software Engineering,L14+L15
-SWE1002,Principles of Software Engineering,L26+L27
-SWE1002,Principles of Software Engineering,L33+L34
-SWE1002,Principles of Software Engineering,L41+L42
-SWE1002,Principles of Software Engineering,L45+L46
-SWE1002,Principles of Software Engineering,L47+L48
-SWE1002,Principles of Software Engineering,L53+L54
-SWE1002,Principles of Software Engineering,L8+L9
-SWE2001,Data Structures and  Its Applications,L10+L11
-SWE2001,Data Structures and  Its Applications,L22+L23
-SWE2001,Data Structures and  Its Applications,L35+L36
-SWE2001,Data Structures and  Its Applications,L39+L40
-SWE2001,Data Structures and  Its Applications,L4+L5
-SWE2001,Data Structures and  Its Applications,L41+L42
-SWE2001,Data Structures and  Its Applications,L43+L44
-SWE2001,Data Structures and  Its Applications,L47+L48
-SWE2001,Data Structures and  Its Applications,L51+L52
-SWE2007,Fundamentals of Operating Systems,L2+L3
-SWE2007,Fundamentals of Operating Systems,L20+L21
-SWE2007,Fundamentals of Operating Systems,L26+L27
-SWE2007,Fundamentals of Operating Systems,L28+L29
-SWE2007,Fundamentals of Operating Systems,L31+L32
-SWE2007,Fundamentals of Operating Systems,L35+L36
-SWE2007,Fundamentals of Operating Systems,L37+L38
-SWE2007,Fundamentals of Operating Systems,L49+L50
-SWE2007,Fundamentals of Operating Systems,L53+L54
-SWE2008,Object Oriented Analysis and Design,L22+L23
-SWE2008,Object Oriented Analysis and Design,L37+L38
-SWE2008,Object Oriented Analysis and Design,L4+L5
-SWE2008,Object Oriented Analysis and Design,L51+L52
-SWE2009,Analysis of Algorithms,L22+L23
-SWE2009,Analysis of Algorithms,L37+L38
-SWE2009,Analysis of Algorithms,L4+L5
-SWE2009,Analysis of Algorithms,L49+L50
-SWE3004,Front End Design and Testing,L20+L21
-SWE3004,Front End Design and Testing,L31+L32
-SWE3004,Front End Design and Testing,L39+L40
-SWE3004,Front End Design and Testing,L8+L9
-SWE4001,Internet and Web Technologies,L2+L3
-SWE4001,Internet and Web Technologies,L20+L21
-SWE4001,Internet and Web Technologies,L33+L34
-SWE4001,Internet and Web Technologies,L35+L36
-SWE4001,Internet and Web Technologies,L39+L40
-SWE4001,Internet and Web Technologies,L45+L46
-SWE4001,Internet and Web Technologies,L8+L9
+CSE1006,23MIC/23MIS - Foundations for Data Analytics,L10+L11
+CSE1006,23MIC/23MIS - Foundations for Data Analytics,L4+L5
+CSE1006,23MIC/23MIS - Foundations for Data Analytics,L49+L50
+CSE1006,23MIC/23MIS - Foundations for Data Analytics,L57+L58
+SWE2006,23MIC/23MIS - Database Systems,L2+L3
+SWE2006,23MIC/23MIS - Database Systems,L20+L21
+SWE2006,23MIC/23MIS - Database Systems,L22+L23
+SWE2006,23MIC/23MIS - Database Systems,L28+L29
+SWE2006,23MIC/23MIS - Database Systems,L31+L32
+SWE2006,23MIC/23MIS - Database Systems,L39+L40
+SWE2006,23MIC/23MIS - Database Systems,L41+L42
+SWE2006,23MIC/23MIS - Database Systems,L43+L44
+SWE2006,23MIC/23MIS - Database Systems,L47+L48
+SWE2006,23MIC/23MIS - Database Systems,L51+L52
+SWE3001,23MIC/23MIS - Introduction to Computer Networks,L14+L15
+SWE3001,23MIC/23MIS - Introduction to Computer Networks,L2+L3
+SWE3001,23MIC/23MIS - Introduction to Computer Networks,L20+L21
+SWE3001,23MIC/23MIS - Introduction to Computer Networks,L43+L44
+SWE3001,23MIC/23MIS - Introduction to Computer Networks,L4+L5
+SWE3001,23MIC/23MIS - Introduction to Computer Networks,L45+L46
+SWE3001,23MIC/23MIS - Introduction to Computer Networks,L49+L50
+SWE3001,23MIC/23MIS - Introduction to Computer Networks,L53+L54
+SWE3001,23MIC/23MIS - Introduction to Computer Networks,L55+L56
+MEC2005,23BME - Fundamentals of Manufacturing Processes,L14+L15
+MEC2005,23BME - Fundamentals of Manufacturing Processes,L33+L34
+MEC2005,23BME - Fundamentals of Manufacturing Processes,L8+L9
+MEC2010,23BME - Machine Drawing,L4+L5+L14+L15
+MEC2010,23BME - Machine Drawing,L31+L32+L51+L52
+MEC2018,23BME - Thermal Engineering Systems,L37+L38
+MEC2018,23BME - Thermal Engineering Systems,L4+L5
+MEC2018,23BME - Thermal Engineering Systems,L35+L36
+MEC3002,23BME - Theory of Machines,L28+L29
+MEC3002,23BME - Theory of Machines,L45+L46
+MEC3002,23BME - Theory of Machines,L14+L15
+ECE3006,23BEC - VLSI - HDL Verification and Methodology,L31+L32
+ECE2009,23BEC - ES - Data Acquisition and Transmission Systems,L51+L52
+ECE2001,23BEC - Analog Devices and Circuits,L10+L11
+ECE2001,23BEC - Analog Devices and Circuits,L20+L21
+ECE2001,23BEC - Analog Devices and Circuits,L39+L40
+ECE2001,23BEC - Analog Devices and Circuits,L41+L42
+ECE2001,23BEC - Analog Devices and Circuits,L43+L44
+ECE2014,23BEC - Microprocessors and Microcontrollers,L14+L15
+ECE2014,23BEC - Microprocessors and Microcontrollers,L2+L3
+ECE2014,23BEC - Microprocessors and Microcontrollers,L45+L46
+ECE2014,23BEC - Microprocessors and Microcontrollers,L53+L54
+ECE2014,23BEC - Microprocessors and Microcontrollers,L55+L56
+MGT1001,23BCE/23BEC/23BME/23MIC/23MIS - Ethics and Values,L22+L23
+MGT1001,23BCE/23BEC/23BME/23MIC/23MIS - Ethics and Values,L37+L38
+MGT1001,23BCE/23BEC/23BME/23MIC/23MIS - Ethics and Values,L39+L40
+MGT1001,23BCE/23BEC/23BME/23MIC/23MIS - Ethics and Values,L41+L42
+MGT1001,23BCE/23BEC/23BME/23MIC/23MIS - Ethics and Values,L43+L44
+MGT1001,23BCE/23BEC/23BME/23MIC/23MIS - Ethics and Values,L45+L46
+MGT1001,23BCE/23BEC/23BME/23MIC/23MIS - Ethics and Values,L47+L48
+MGT1001,23BCE/23BEC/23BME/23MIC/23MIS - Ethics and Values,L49+L50
+MGT1001,23BCE/23BEC/23BME/23MIC/23MIS - Ethics and Values,L51+L52
+MGT1001,23BCE/23BEC/23BME/23MIC/23MIS - Ethics and Values,L53+L54
+MGT1001,23BCE/23BEC/23BME/23MIC/23MIS - Ethics and Values,L55+L56
+MGT1001,23BCE/23BEC/23BME/23MIC/23MIS - Ethics and Values,L55+L56
+MGT1001,23BCE/23BEC/23BME/23MIC/23MIS - Ethics and Values,L57+L58
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L10+L11
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L10+L11
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L14+L15
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L14+L15
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L16+L17
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L2+L3
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L2+L3
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L20+L21
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L20+L21
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L22+L23
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L22+L23
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L26+L27
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L26+L27
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L28+L29
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L28+L29
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L28+L29
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L31+L32
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L31+L32
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L33+L34
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L33+L34
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L35+L36
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L35+L36
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L35+L36
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L37+L38
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L37+L38
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L39+L40
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L39+L40
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L39+L40
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L4+L5
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L4+L5
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L41+L42
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L41+L42
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L43+L44
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L43+L44
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L45+L46
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L45+L46
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L47+L48
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L47+L48
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L47+L48
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L49+L50
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L49+L50
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L51+L52
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L51+L52
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L53+L54
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L53+L54
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L53+L54
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L53+L54
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L55+L56
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L55+L56
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L57+L58
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L57+L58
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L8+L9
+MAT1011,23BCE/23BEC/23BME - Applied Statistics,L8+L9
+CSE3006,23BCE - DA - Data Visualization,L16+L17
+CSE3006,23BCE - DA - Data Visualization,L20+L21
+CSE3006,23BCE - DA - Data Visualization,L28+L29
+CSE3006,23BCE - DA - Data Visualization,L35+L36
+CSE3006,23BCE - DA - Data Visualization,L39+L40
+CSE3006,23BCE - DA - Data Visualization,L43+L44
+CSE3006,23BCE - DA - Data Visualization,L45+L46
+MAT2003,23BCE - DA - Optimization Techniques,L16+L17
+MAT2003,23BCE - DA - Optimization Techniques,L2+L3
+MAT2003,23BCE - DA - Optimization Techniques,L20+L21
+MAT2003,23BCE - DA - Optimization Techniques,L22+L23
+MAT2003,23BCE - DA - Optimization Techniques,L31+L32
+MAT2003,23BCE - DA - Optimization Techniques,L39+L40
+MAT2003,23BCE - DA - Optimization Techniques,L41+L42
+MAT2003,23BCE - DA - Optimization Techniques,L43+L44
+MAT2003,23BCE - DA - Optimization Techniques,L47+L48
+MAT2003,23BCE - DA - Optimization Techniques,L51+L52
+MAT2003,23BCE - DA - Optimization Techniques,L57+L58
+CSE2011,23BCE - CYBER SEC - Cyber Security and Digital Forensics,L28+L29
+CSE2011,23BCE - CYBER SEC - Cyber Security and Digital Forensics,L55+L56
+CSE4007,23BCE - Core - Digital Image Processing,L14+L15
+CSE4007,23BCE - Core - Digital Image Processing,L49+L50
+CSE4007,23BCE - Core - Digital Image Processing,L8+L9
+CSE2024,23BCE - BLK CHAIN - Blockchain Architecture Design,L2+L3
+CSE2024,23BCE - BLK CHAIN - Blockchain Architecture Design,L33+L34
+CSE3008,23BCE - AIML - Introduction to Machine Learning,L16+L17
+CSE3008,23BCE - AIML - Introduction to Machine Learning,L31+L32
+CSE3008,23BCE - AIML - Introduction to Machine Learning,L33+L34
+CSE3008,23BCE - AIML - Introduction to Machine Learning,L35+L36
+CSE3008,23BCE - AIML - Introduction to Machine Learning,L37+L38
+CSE3008,23BCE - AIML - Introduction to Machine Learning,L39+L40
+CSE3008,23BCE - AIML - Introduction to Machine Learning,L41+L42
+CSE3008,23BCE - AIML - Introduction to Machine Learning,L43+L44
+CSE3008,23BCE - AIML - Introduction to Machine Learning,L45+L46
+CSE3008,23BCE - AIML - Introduction to Machine Learning,L47+L48
+CSE3008,23BCE - AIML - Introduction to Machine Learning,L49+L50
+CSE3008,23BCE - AIML - Introduction to Machine Learning,L51+L52
+CSE3008,23BCE - AIML - Introduction to Machine Learning,L53+L54
+CSE3008,23BCE - AIML - Introduction to Machine Learning,L55+L56
+CSE3008,23BCE - AIML - Introduction to Machine Learning,L55+L56
+CSE3008,23BCE - AIML - Introduction to Machine Learning,L57+L58
+CSE3008,23BCE - AIML - Introduction to Machine Learning,L57+L58
+CSE1005,23BCE - Software Engineering,L10+L11
+CSE1005,23BCE - Software Engineering,L14+L15
+CSE1005,23BCE - Software Engineering,L2+L3
+CSE1005,23BCE - Software Engineering,L20+L21
+CSE1005,23BCE - Software Engineering,L22+L23
+CSE1005,23BCE - Software Engineering,L26+L27
+CSE1005,23BCE - Software Engineering,L28+L29
+CSE1005,23BCE - Software Engineering,L31+L32
+CSE1005,23BCE - Software Engineering,L31+L32
+CSE1005,23BCE - Software Engineering,L33+L34
+CSE1005,23BCE - Software Engineering,L35+L36
+CSE1005,23BCE - Software Engineering,L37+L38
+CSE1005,23BCE - Software Engineering,L39+L40
+CSE1005,23BCE - Software Engineering,L39+L40
+CSE1005,23BCE - Software Engineering,L4+L5
+CSE1005,23BCE - Software Engineering,L41+L42
+CSE1005,23BCE - Software Engineering,L41+L42
+CSE1005,23BCE - Software Engineering,L43+L44
+CSE1005,23BCE - Software Engineering,L43+L44
+CSE1005,23BCE - Software Engineering,L45+L46
+CSE1005,23BCE - Software Engineering,L47+L48
+CSE1005,23BCE - Software Engineering,L47+L48
+CSE1005,23BCE - Software Engineering,L49+L50
+CSE1005,23BCE - Software Engineering,L49+L50
+CSE1005,23BCE - Software Engineering,L51+L52
+CSE1005,23BCE - Software Engineering,L51+L52
+CSE1005,23BCE - Software Engineering,L53+L54
+CSE1005,23BCE - Software Engineering,L53+L54
+CSE1005,23BCE - Software Engineering,L55+L56
+CSE1005,23BCE - Software Engineering,L55+L56
+CSE1005,23BCE - Software Engineering,L57+L58
+CSE1005,23BCE - Software Engineering,L8+L9
+CSE1005,23BCE - Software Engineering,L8+L9
+CSE2007,23BCE - Database Management Systems,L10+L11
+CSE2007,23BCE - Database Management Systems,L10+L11
+CSE2007,23BCE - Database Management Systems,L14+L15
+CSE2007,23BCE - Database Management Systems,L14+L15
+CSE2007,23BCE - Database Management Systems,L16+L17
+CSE2007,23BCE - Database Management Systems,L2+L3
+CSE2007,23BCE - Database Management Systems,L2+L3
+CSE2007,23BCE - Database Management Systems,L20+L21
+CSE2007,23BCE - Database Management Systems,L20+L21
+CSE2007,23BCE - Database Management Systems,L22+L23
+CSE2007,23BCE - Database Management Systems,L22+L23
+CSE2007,23BCE - Database Management Systems,L26+L27
+CSE2007,23BCE - Database Management Systems,L26+L27
+CSE2007,23BCE - Database Management Systems,L28+L29
+CSE2007,23BCE - Database Management Systems,L28+L29
+CSE2007,23BCE - Database Management Systems,L31+L32
+CSE2007,23BCE - Database Management Systems,L31+L32
+CSE2007,23BCE - Database Management Systems,L33+L34
+CSE2007,23BCE - Database Management Systems,L33+L34
+CSE2007,23BCE - Database Management Systems,L35+L36
+CSE2007,23BCE - Database Management Systems,L35+L36
+CSE2007,23BCE - Database Management Systems,L37+L38
+CSE2007,23BCE - Database Management Systems,L37+L38
+CSE2007,23BCE - Database Management Systems,L39+L40
+CSE2007,23BCE - Database Management Systems,L39+L40
+CSE2007,23BCE - Database Management Systems,L4+L5
+CSE2007,23BCE - Database Management Systems,L4+L5
+CSE2007,23BCE - Database Management Systems,L41+L42
+CSE2007,23BCE - Database Management Systems,L41+L42
+CSE2007,23BCE - Database Management Systems,L43+L44
+CSE2007,23BCE - Database Management Systems,L43+L44
+CSE2007,23BCE - Database Management Systems,L45+L46
+CSE2007,23BCE - Database Management Systems,L47+L48
+CSE2007,23BCE - Database Management Systems,L47+L48
+CSE2007,23BCE - Database Management Systems,L49+L50
+CSE2007,23BCE - Database Management Systems,L49+L50
+CSE2007,23BCE - Database Management Systems,L51+L52
+CSE2007,23BCE - Database Management Systems,L51+L52
+CSE2007,23BCE - Database Management Systems,L53+L54
+CSE2007,23BCE - Database Management Systems,L53+L54
+CSE2007,23BCE - Database Management Systems,L55+L56
+CSE2007,23BCE - Database Management Systems,L55+L56
+CSE2007,23BCE - Database Management Systems,L57+L58
+CSE2007,23BCE - Database Management Systems,L8+L9
+CSE2007,23BCE - Database Management Systems,L8+L9
+SWE2008,22MIS - Object Oriented Analysis and Design,L10+L11
+SWE2008,22MIS - Object Oriented Analysis and Design,L31+L32
+SWE3005,22MIS - Principles of Design Patterns,L31+L32
+SWE3005,22MIS - Principles of Design Patterns,L37+L38
+SWE3005,22MIS - Principles of Design Patterns,L51+L52
+CSE3008,22MIC/22MIS - Introduction to Machine Learning,L16+L17
+CSE3008,22MIC/22MIS - Introduction to Machine Learning,L20+L21
+CSE3008,22MIC/22MIS - Introduction to Machine Learning,L22+L23
+CSE3008,22MIC/22MIS - Introduction to Machine Learning,L26+L27
+CSE3008,22MIC/22MIS - Introduction to Machine Learning,L28+L29
+SWE3003,22MIC/22MIS - Information and System Security,L16+L17
+SWE3003,22MIC/22MIS - Information and System Security,L28+L29
+SWE3003,22MIC/22MIS - Information and System Security,L33+L34
+SWE3003,22MIC/22MIS - Information and System Security,L43+L44
+SWE3003,22MIC/22MIS - Information and System Security,L57+L58
+SWE4002,22MIC/22MIS - Software Testing,L20+L21
+SWE4002,22MIC/22MIS - Software Testing,L28+L29
+SWE4002,22MIC/22MIS - Software Testing,L33+L34
+SWE4002,22MIC/22MIS - Software Testing,L39+L40
+SWE4002,22MIC/22MIS - Software Testing,L41+L42
+SWE4002,22MIC/22MIS - Software Testing,L43+L44
+SWE4002,22MIC/22MIS - Software Testing,L49+L50
+SWE4003,22MIC/22MIS - Concepts of Mobile Application Development,L37+L38
+SWE4003,22MIC/22MIS - Concepts of Mobile Application Development,L47+L48
+SWE4003,22MIC/22MIS - Concepts of Mobile Application Development,L49+L50
+SWE4003,22MIC/22MIS - Concepts of Mobile Application Development,L57+L58
+SWE4006,22MIC - Advanced Server Side Programming,L22+L23
+SWE4006,22MIC - Advanced Server Side Programming,L45+L46
+SWE4006,22MIC - Advanced Server Side Programming,L57+L58
+SWE4006,22MIC - Advanced Server Side Programming,L8+L9
+SWE4008,22MIC - Application Development and Deployment Architecture,L37+L38
+SWE4008,22MIC - Application Development and Deployment Architecture,L49+L50
+SWE4008,22MIC - Application Development and Deployment Architecture,L51+L52
+SWE4008,22MIC - Application Development and Deployment Architecture,L55+L56
+ECE1008,22BME -ROB/22BME - DM - Sensors and Control Systems,L49+L50
+MEC3012,22BME - DM - Additive Manufacturing,L33+L34
+MEC3006,22BME - Core - Fluid Dynamics and Hydraulic Machines,L2+L3
+MEC3015,22BME - Core - Advanced Machining Processes,L39+L40
+MEC4001,22BME - Core - Computational Fluid Dynamics,L8+L9
+MEC4004,22BME - Core - Refrigeration and Air Conditioning,L57+L58
+MEC4017,22BME - Core - Introduction to Mechanical Vibrations,L26+L27
+MEC4008,22BME - AD - Automobile Engineering,L22+L23
+ECE3005,22BEC - VLSI - CMOS VLSI Design,L39+L40
+ECE4006,22BEC - VLSI - Analog IC Design,L45+L46
+ECE3010,22BEC - IVP - Speech Processing,L43+L44
+ECE4018,22BEC - IVP - Image Analysis and Computer Vision,L55+L56
+ECE4017,22BEC - IOT - IoT Domain Analyst,L4+L5
+ECE3004,22BEC - ES - Embedded Hardware Software System Design,L28+L29
+ECE3023,22BEC - Core - Scripting Languages,L57+L58
+ECE2006,22BEC - Communication Systems,L16+L17
+ECE2006,22BEC - Communication Systems,L26+L27
+ECE2006,22BEC - Communication Systems,L31+L32
+ECE2006,22BEC - Communication Systems,L57+L58
+ECE3001,22BEC - Linear Integrated Circuits and Applications,L22+L23
+ECE3001,22BEC - Linear Integrated Circuits and Applications,L39+L40
+ECE3001,22BEC - Linear Integrated Circuits and Applications,L43+L44
+ECE3001,22BEC - Linear Integrated Circuits and Applications,L8+L9
+MGT1001,22BCE/22BEC/22BME/22MIC/22MIS - Ethics and Values,L10+L11
+MGT1001,22BCE/22BEC/22BME/22MIC/22MIS - Ethics and Values,L14+L15
+MGT1001,22BCE/22BEC/22BME/22MIC/22MIS - Ethics and Values,L16+L17
+MGT1001,22BCE/22BEC/22BME/22MIC/22MIS - Ethics and Values,L2+L3
+MGT1001,22BCE/22BEC/22BME/22MIC/22MIS - Ethics and Values,L20+L21
+MGT1001,22BCE/22BEC/22BME/22MIC/22MIS - Ethics and Values,L22+L23
+MGT1001,22BCE/22BEC/22BME/22MIC/22MIS - Ethics and Values,L26+L27
+MGT1001,22BCE/22BEC/22BME/22MIC/22MIS - Ethics and Values,L28+L29
+MGT1001,22BCE/22BEC/22BME/22MIC/22MIS - Ethics and Values,L31+L32
+MGT1001,22BCE/22BEC/22BME/22MIC/22MIS - Ethics and Values,L33+L34
+MGT1001,22BCE/22BEC/22BME/22MIC/22MIS - Ethics and Values,L35+L36
+MGT1001,22BCE/22BEC/22BME/22MIC/22MIS - Ethics and Values,L4+L5
+MGT1001,22BCE/22BEC/22BME/22MIC/22MIS - Ethics and Values,L8+L9
+CSE3009,22BCE - DA - NoSQL Databases,L2+L3
+CSE3009,22BCE - DA - NoSQL Databases,L33+L34
+CSE3009,22BCE - DA - NoSQL Databases,L57+L58
+CSE4016,22BCE - DA - Database Administration,L26+L27
+CSE4016,22BCE - DA - Database Administration,L31+L32
+CSE4016,22BCE - DA - Database Administration,L47+L48
+CSE4016,22BCE - DA - Database Administration,L55+L56
+CSE3012,22BCE - CYBER SEC - Network Security,L2+L3
+CSE3012,22BCE - CYBER SEC - Network Security,L37+L38
+CSE3012,22BCE - CYBER SEC - Network Security,L51+L52
+CSE3041,22BCE - CYBER SEC - Malware Analysis,L10+L11
+CSE3041,22BCE - CYBER SEC - Malware Analysis,L45+L46
+CSE3041,22BCE - CYBER SEC - Malware Analysis,L53+L54
+CSE3035,22BCE - BLK CHAIN - Blockchain and Distributed Ledger Technology,L4+L5
+CSE3035,22BCE - BLK CHAIN - Blockchain and Distributed Ledger Technology,L37+L38
+CSE3015,22BCE - AIML - Natural Language Processing,L10+L11
+CSE3015,22BCE - AIML - Natural Language Processing,L14+L15
+CSE3015,22BCE - AIML - Natural Language Processing,L16+L17
+CSE3015,22BCE - AIML - Natural Language Processing,L16+L17
+CSE3015,22BCE - AIML - Natural Language Processing,L2+L3
+CSE3015,22BCE - AIML - Natural Language Processing,L20+L21
+CSE3015,22BCE - AIML - Natural Language Processing,L22+L23
+CSE3015,22BCE - AIML - Natural Language Processing,L22+L23
+CSE3015,22BCE - AIML - Natural Language Processing,L26+L27
+CSE3015,22BCE - AIML - Natural Language Processing,L31+L32
+CSE3015,22BCE - AIML - Natural Language Processing,L33+L34
+CSE3015,22BCE - AIML - Natural Language Processing,L33+L34
+CSE3015,22BCE - AIML - Natural Language Processing,L35+L36
+CSE3015,22BCE - AIML - Natural Language Processing,L37+L38
+CSE3015,22BCE - AIML - Natural Language Processing,L39+L40
+CSE3015,22BCE - AIML - Natural Language Processing,L4+L5
+CSE3015,22BCE - AIML - Natural Language Processing,L43+L44
+CSE3015,22BCE - AIML - Natural Language Processing,L45+L46
+CSE3015,22BCE - AIML - Natural Language Processing,L47+L48
+CSE3015,22BCE - AIML - Natural Language Processing,L49+L50
+CSE3015,22BCE - AIML - Natural Language Processing,L51+L52
+CSE3015,22BCE - AIML - Natural Language Processing,L51+L52
+CSE3015,22BCE - AIML - Natural Language Processing,L53+L54
+CSE3015,22BCE - AIML - Natural Language Processing,L55+L56
+CSE3015,22BCE - AIML - Natural Language Processing,L57+L58
+CSE3015,22BCE - AIML - Natural Language Processing,L8+L9
+CSE3004,22BCE - Design and Analysis of Algorithm,L10+L11
+CSE3004,22BCE - Design and Analysis of Algorithm,L10+L11
+CSE3004,22BCE - Design and Analysis of Algorithm,L14+L15
+CSE3004,22BCE - Design and Analysis of Algorithm,L14+L15
+CSE3004,22BCE - Design and Analysis of Algorithm,L16+L17
+CSE3004,22BCE - Design and Analysis of Algorithm,L16+L17
+CSE3004,22BCE - Design and Analysis of Algorithm,L2+L3
+CSE3004,22BCE - Design and Analysis of Algorithm,L20+L21
+CSE3004,22BCE - Design and Analysis of Algorithm,L20+L21
+CSE3004,22BCE - Design and Analysis of Algorithm,L22+L23
+CSE3004,22BCE - Design and Analysis of Algorithm,L22+L23
+CSE3004,22BCE - Design and Analysis of Algorithm,L26+L27
+CSE3004,22BCE - Design and Analysis of Algorithm,L26+L27
+CSE3004,22BCE - Design and Analysis of Algorithm,L28+L29
+CSE3004,22BCE - Design and Analysis of Algorithm,L28+L29
+CSE3004,22BCE - Design and Analysis of Algorithm,L31+L32
+CSE3004,22BCE - Design and Analysis of Algorithm,L31+L32
+CSE3004,22BCE - Design and Analysis of Algorithm,L33+L34
+CSE3004,22BCE - Design and Analysis of Algorithm,L33+L34
+CSE3004,22BCE - Design and Analysis of Algorithm,L35+L36
+CSE3004,22BCE - Design and Analysis of Algorithm,L35+L36
+CSE3004,22BCE - Design and Analysis of Algorithm,L37+L38
+CSE3004,22BCE - Design and Analysis of Algorithm,L37+L38
+CSE3004,22BCE - Design and Analysis of Algorithm,L39+L40
+CSE3004,22BCE - Design and Analysis of Algorithm,L39+L40
+CSE3004,22BCE - Design and Analysis of Algorithm,L4+L5
+CSE3004,22BCE - Design and Analysis of Algorithm,L4+L5
+CSE3004,22BCE - Design and Analysis of Algorithm,L41+L42
+CSE3004,22BCE - Design and Analysis of Algorithm,L41+L42
+CSE3004,22BCE - Design and Analysis of Algorithm,L43+L44
+CSE3004,22BCE - Design and Analysis of Algorithm,L43+L44
+CSE3004,22BCE - Design and Analysis of Algorithm,L45+L46
+CSE3004,22BCE - Design and Analysis of Algorithm,L45+L46
+CSE3004,22BCE - Design and Analysis of Algorithm,L47+L48
+CSE3004,22BCE - Design and Analysis of Algorithm,L47+L48
+CSE3004,22BCE - Design and Analysis of Algorithm,L49+L50
+CSE3004,22BCE - Design and Analysis of Algorithm,L49+L50
+CSE3004,22BCE - Design and Analysis of Algorithm,L51+L52
+CSE3004,22BCE - Design and Analysis of Algorithm,L51+L52
+CSE3004,22BCE - Design and Analysis of Algorithm,L53+L54
+CSE3004,22BCE - Design and Analysis of Algorithm,L55+L56
+CSE3004,22BCE - Design and Analysis of Algorithm,L57+L58
+CSE3004,22BCE - Design and Analysis of Algorithm,L57+L58
+CSE3004,22BCE - Design and Analysis of Algorithm,L8+L9
+CSE3004,22BCE - Design and Analysis of Algorithm,L8+L9
+SWE4001,21MIS - Internet and Web Technologies,L31+L32
+CSE3008,21MIC/21MIS - Introduction to Machine Learning,L10+L11
+CSE3008,21MIC/21MIS - Introduction to Machine Learning,L14+L15
+CSE3008,21MIC/21MIS - Introduction to Machine Learning,L4+L5
+CSE3008,21MIC/21MIS - Introduction to Machine Learning,L47+L48
+CSE3008,21MIC/21MIS - Introduction to Machine Learning,L8+L9
+SWE4003,21MIC/21MIS - Concepts of Mobile Application Development,L22+L23
+SWE4003,21MIC/21MIS - Concepts of Mobile Application Development,L26+L27
+SWE4003,21MIC/21MIS - Concepts of Mobile Application Development,L33+L34
+SWE4003,21MIC/21MIS - Concepts of Mobile Application Development,L8+L9
+SWE4008,21MIC/21MIS - Application Development and Deployment Architecture,L10+L11
+SWE4008,21MIC/21MIS - Application Development and Deployment Architecture,L26+L27
+SWE4008,21MIC/21MIS - Application Development and Deployment Architecture,L35+L36
+SWE4008,21MIC/21MIS - Application Development and Deployment Architecture,L4+L5
+SWE4002,21MIC - Software Testing,L16+L17
+SWE4002,21MIC - Software Testing,L2+L3
