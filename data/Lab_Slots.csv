@@ -1,365 +1,673 @@
-COURSE CODE,COURSE TITLE,SLOT
-CSE1005,Software Engineering,L10+L11
-CSE1005,Software Engineering,L10+L11
-CSE1005,Software Engineering,L14+L15
-CSE1005,Software Engineering,L14+L15
-CSE1005,Software Engineering,L2+L3
-CSE1005,Software Engineering,L2+L3
-CSE1005,Software Engineering,L20+L21
-CSE1005,Software Engineering,L20+L21
-CSE1005,Software Engineering,L22+L23
-CSE1005,Software Engineering,L22+L23
-CSE1005,Software Engineering,L26+L27
-CSE1005,Software Engineering,L26+L27
-CSE1005,Software Engineering,L28+L29
-CSE1005,Software Engineering,L28+L29
-CSE1005,Software Engineering,L31+L32
-CSE1005,Software Engineering,L31+L32
-CSE1005,Software Engineering,L33+L34
-CSE1005,Software Engineering,L33+L34
-CSE1005,Software Engineering,L35+L36
-CSE1005,Software Engineering,L37+L38
-CSE1005,Software Engineering,L37+L38
-CSE1005,Software Engineering,L39+L40
-CSE1005,Software Engineering,L39+L40
-CSE1005,Software Engineering,L4+L5
-CSE1005,Software Engineering,L4+L5
-CSE1005,Software Engineering,L41+L42
-CSE1005,Software Engineering,L41+L42
-CSE1005,Software Engineering,L43+L44
-CSE1005,Software Engineering,L43+L44
-CSE1005,Software Engineering,L45+L46
-CSE1005,Software Engineering,L45+L46
-CSE1005,Software Engineering,L47+L48
-CSE1005,Software Engineering,L47+L48
-CSE1005,Software Engineering,L49+L50
-CSE1005,Software Engineering,L49+L50
-CSE1005,Software Engineering,L51+L52
-CSE1005,Software Engineering,L51+L52
-CSE1005,Software Engineering,L53+L54
-CSE1005,Software Engineering,L53+L54
-CSE1005,Software Engineering,L55+L56
-CSE1005,Software Engineering,L55+L56
-CSE1005,Software Engineering,L8+L9
-CSE1005,Software Engineering,L8+L9
-CSE1006,Foundations for Data Analytics,L10+L11
-CSE1006,Foundations for Data Analytics,L14+L15
-CSE1006,Foundations for Data Analytics,L16+L17
-CSE1006,Foundations for Data Analytics,L20+L21
-CSE1006,Foundations for Data Analytics,L22+L23
-CSE1006,Foundations for Data Analytics,L33+L34
-CSE1006,Foundations for Data Analytics,L35+L36
-CSE1006,Foundations for Data Analytics,L39+L40
-CSE1006,Foundations for Data Analytics,L4+L5
-CSE1006,Foundations for Data Analytics,L43+L44
-CSE1006,Foundations for Data Analytics,L45+L46
-CSE1006,Foundations for Data Analytics,L49+L50
-CSE1006,Foundations for Data Analytics,L51+L52
-CSE1006,Foundations for Data Analytics,L53+L54
-CSE1007,Introduction to Cryptography,L14+L15
-CSE1007,Introduction to Cryptography,L26+L27
-CSE1007,Introduction to Cryptography,L35+L36
-CSE1007,Introduction to Cryptography,L4+L5
-CSE1007,Introduction to Cryptography,L45+L46
-CSE1007,Introduction to Cryptography,L49+L50
-CSE1022,Introduction to Programming,L10+L11
-CSE1022,Introduction to Programming,L10+L11
-CSE1022,Introduction to Programming,L14+L15
-CSE1022,Introduction to Programming,L14+L15
-CSE1022,Introduction to Programming,L2+L3
-CSE1022,Introduction to Programming,L2+L3
-CSE1022,Introduction to Programming,L2+L3
-CSE1022,Introduction to Programming,L20+L21
-CSE1022,Introduction to Programming,L20+L21
-CSE1022,Introduction to Programming,L20+L21
-CSE1022,Introduction to Programming,L22+L23
-CSE1022,Introduction to Programming,L22+L23
-CSE1022,Introduction to Programming,L26+L27
-CSE1022,Introduction to Programming,L26+L27
-CSE1022,Introduction to Programming,L28+L29
-CSE1022,Introduction to Programming,L28+L29
-CSE1022,Introduction to Programming,L31+L32
-CSE1022,Introduction to Programming,L31+L32
-CSE1022,Introduction to Programming,L31+L32
-CSE1022,Introduction to Programming,L33+L34
-CSE1022,Introduction to Programming,L33+L34
-CSE1022,Introduction to Programming,L35+L36
-CSE1022,Introduction to Programming,L35+L36
-CSE1022,Introduction to Programming,L37+L38
-CSE1022,Introduction to Programming,L37+L38
-CSE1022,Introduction to Programming,L39+L40
-CSE1022,Introduction to Programming,L39+L40
-CSE1022,Introduction to Programming,L4+L5
-CSE1022,Introduction to Programming,L4+L5
-CSE1022,Introduction to Programming,L41+L42
-CSE1022,Introduction to Programming,L41+L42
-CSE1022,Introduction to Programming,L41+L42
-CSE1022,Introduction to Programming,L43+L44
-CSE1022,Introduction to Programming,L43+L44
-CSE1022,Introduction to Programming,L45+L46
-CSE1022,Introduction to Programming,L45+L46
-CSE1022,Introduction to Programming,L47+L48
-CSE1022,Introduction to Programming,L47+L48
-CSE1022,Introduction to Programming,L47+L48
-CSE1022,Introduction to Programming,L49+L50
-CSE1022,Introduction to Programming,L49+L50
-CSE1022,Introduction to Programming,L51+L52
-CSE1022,Introduction to Programming,L51+L52
-CSE1022,Introduction to Programming,L53+L54
-CSE1022,Introduction to Programming,L55+L56
-CSE1022,Introduction to Programming,L55+L56
-CSE1022,Introduction to Programming,L55+L56
-CSE1022,Introduction to Programming,L8+L9
-CSE1022,Introduction to Programming,L8+L9
-CSE2001,Data Structures and Algorithms,L10+L11
-CSE2001,Data Structures and Algorithms,L10+L11
-CSE2001,Data Structures and Algorithms,L14+L15
-CSE2001,Data Structures and Algorithms,L14+L15
-CSE2001,Data Structures and Algorithms,L2+L3
-CSE2001,Data Structures and Algorithms,L2+L3
-CSE2001,Data Structures and Algorithms,L20+L21
-CSE2001,Data Structures and Algorithms,L20+L21
-CSE2001,Data Structures and Algorithms,L22+L23
-CSE2001,Data Structures and Algorithms,L22+L23
-CSE2001,Data Structures and Algorithms,L26+L27
-CSE2001,Data Structures and Algorithms,L26+L27
-CSE2001,Data Structures and Algorithms,L28+L29
-CSE2001,Data Structures and Algorithms,L28+L29
-CSE2001,Data Structures and Algorithms,L31+L32
-CSE2001,Data Structures and Algorithms,L31+L32
-CSE2001,Data Structures and Algorithms,L33+L34
-CSE2001,Data Structures and Algorithms,L33+L34
-CSE2001,Data Structures and Algorithms,L35+L36
-CSE2001,Data Structures and Algorithms,L35+L36
-CSE2001,Data Structures and Algorithms,L35+L36
-CSE2001,Data Structures and Algorithms,L37+L38
-CSE2001,Data Structures and Algorithms,L37+L38
-CSE2001,Data Structures and Algorithms,L39+L40
-CSE2001,Data Structures and Algorithms,L39+L40
-CSE2001,Data Structures and Algorithms,L4+L5
-CSE2001,Data Structures and Algorithms,L4+L5
-CSE2001,Data Structures and Algorithms,L41+L42
-CSE2001,Data Structures and Algorithms,L41+L42
-CSE2001,Data Structures and Algorithms,L41+L42
-CSE2001,Data Structures and Algorithms,L43+L44
-CSE2001,Data Structures and Algorithms,L43+L44
-CSE2001,Data Structures and Algorithms,L43+L44
-CSE2001,Data Structures and Algorithms,L45+L46
-CSE2001,Data Structures and Algorithms,L45+L46
-CSE2001,Data Structures and Algorithms,L45+L46
-CSE2001,Data Structures and Algorithms,L47+L48
-CSE2001,Data Structures and Algorithms,L47+L48
-CSE2001,Data Structures and Algorithms,L47+L48
-CSE2001,Data Structures and Algorithms,L49+L50
-CSE2001,Data Structures and Algorithms,L49+L50
-CSE2001,Data Structures and Algorithms,L51+L52
-CSE2001,Data Structures and Algorithms,L51+L52
-CSE2001,Data Structures and Algorithms,L53+L54
-CSE2001,Data Structures and Algorithms,L53+L54
-CSE2001,Data Structures and Algorithms,L55+L56
-CSE2001,Data Structures and Algorithms,L55+L56
-CSE2001,Data Structures and Algorithms,L55+L56
-CSE2001,Data Structures and Algorithms,L8+L9
-CSE2001,Data Structures and Algorithms,L8+L9
-CSE2008,Operating Systems,L10+L11
-CSE2008,Operating Systems,L10+L11
-CSE2008,Operating Systems,L14+L15
-CSE2008,Operating Systems,L14+L15
-CSE2008,Operating Systems,L2+L3
-CSE2008,Operating Systems,L2+L3
-CSE2008,Operating Systems,L20+L21
-CSE2008,Operating Systems,L20+L21
-CSE2008,Operating Systems,L22+L23
-CSE2008,Operating Systems,L22+L23
-CSE2008,Operating Systems,L26+L27
-CSE2008,Operating Systems,L28+L29
-CSE2008,Operating Systems,L28+L29
-CSE2008,Operating Systems,L31+L32
-CSE2008,Operating Systems,L31+L32
-CSE2008,Operating Systems,L33+L34
-CSE2008,Operating Systems,L33+L34
-CSE2008,Operating Systems,L35+L36
-CSE2008,Operating Systems,L35+L36
-CSE2008,Operating Systems,L37+L38
-CSE2008,Operating Systems,L37+L38
-CSE2008,Operating Systems,L39+L40
-CSE2008,Operating Systems,L39+L40
-CSE2008,Operating Systems,L4+L5
-CSE2008,Operating Systems,L4+L5
-CSE2008,Operating Systems,L41+L42
-CSE2008,Operating Systems,L41+L42
-CSE2008,Operating Systems,L43+L44
-CSE2008,Operating Systems,L43+L44
-CSE2008,Operating Systems,L45+L46
-CSE2008,Operating Systems,L45+L46
-CSE2008,Operating Systems,L47+L48
-CSE2008,Operating Systems,L47+L48
-CSE2008,Operating Systems,L49+L50
-CSE2008,Operating Systems,L49+L50
-CSE2008,Operating Systems,L51+L52
-CSE2008,Operating Systems,L51+L52
-CSE2008,Operating Systems,L53+L54
-CSE2008,Operating Systems,L53+L54
-CSE2008,Operating Systems,L55+L56
-CSE2008,Operating Systems,L55+L56
-CSE2008,Operating Systems,L8+L9
-CSE2008,Operating Systems,L8+L9
-CSE2011,Cyber Security and Digital Forensics,L22+L23
-CSE2011,Cyber Security and Digital Forensics,L33+L34
-CSE2011,Cyber Security and Digital Forensics,L37+L38
-CSE3001,Agile Development Process,L2+L3
-CSE3001,Agile Development Process,L26+L27
-CSE3001,Agile Development Process,L31+L32
-CSE3001,Agile Development Process,L51+L52
-CSE3008,Introduction to Machine Learning,L2+L3
-CSE3008,Introduction to Machine Learning,L20+L21
-CSE3008,Introduction to Machine Learning,L22+L23
-CSE3008,Introduction to Machine Learning,L26+L27
-CSE3008,Introduction to Machine Learning,L28+L29
-CSE3008,Introduction to Machine Learning,L31+L32
-CSE3008,Introduction to Machine Learning,L31+L32
-CSE3008,Introduction to Machine Learning,L33+L34
-CSE3008,Introduction to Machine Learning,L35+L36
-CSE3008,Introduction to Machine Learning,L37+L38
-CSE3008,Introduction to Machine Learning,L39+L40
-CSE3008,Introduction to Machine Learning,L41+L42
-CSE3008,Introduction to Machine Learning,L43+L44
-CSE3008,Introduction to Machine Learning,L45+L46
-CSE3008,Introduction to Machine Learning,L47+L48
-CSE3008,Introduction to Machine Learning,L49+L50
-CSE3008,Introduction to Machine Learning,L51+L52
-CSE3008,Introduction to Machine Learning,L53+L54
-CSE3008,Introduction to Machine Learning,L55+L56
-CSE3008,Introduction to Machine Learning,L8+L9
-CSE3009,No SQL Databases,L16+L17
-CSE3009,No SQL Databases,L28+L29
-CSE3009,No SQL Databases,L41+L42
-CSE3009,No SQL Databases,L47+L48
-CSE3009,No SQL Databases,L49+L50
-CSE3009,No SQL Databases,L53+L54
-CSE3009,No SQL Databases,L55+L56
-CSE3014,Software Design with UML,L39+L40
-CSE3014,Software Design with UML,L4+L5
-CSE3014,Software Design with UML,L45+L46
-CSE3014,Software Design with UML,L57+L58
-CSE4012,UI UX User Experience Design,L16+L17
-CSE4023,Introduction to Blockchain Technology,L22+L23
-CSE4023,Introduction to Blockchain Technology,L28+L29
-CSE4023,Introduction to Blockchain Technology,L41+L42
-CSE4043,Intrusion Detection and Prevention System,L26+L27
-CSE4043,Intrusion Detection and Prevention System,L57+L58
-ECE2003,Control Systems Engineering,L2+L3
-ECE2007,Digital Signal Processing,L14+L15
-ECE2007,Digital Signal Processing,L55+L56
-ECE2009,Data Acquisition and Transmission Systems,L4+L5
-ECE2010,Digital System Design for ASICs and FPGAs,L39+L40
-ECE3005,CMOS VLSI Design,L16+L17
-ECE3018,IoT Fundamentals,L43+L44
-ECE4003,Embedded C Programming and Linux Development,L8+L9
-ECE4005,SOC Design,L57+L58
-ECE4020,Digital Video Processing,L16+L17
-MAT2001,Numerical Methods for Engineers,L10+L11
-MAT2001,Numerical Methods for Engineers,L31+L32
-MAT2001,Numerical Methods for Engineers,L53+L54
-MEC2003,Strength of Materials,L39+L40
-MEC2003,Strength of Materials,L8+L9
-MEC2004,Fluid Mechanics,L20+L21
-MEC2004,Fluid Mechanics,L43+L44
-MEC2020,Computer Aided Design and Manufacturing,L28+L29
-MEC3001,Heat and Mass Transfer,L39+L40
-MEC3001,Heat and Mass Transfer,L55+L56
-MEC3004,Machine Design,L37+L38
-MEC3004,Machine Design,L51+L52
-MEC3005,Automation in Manufacturing,L14+L15
-MEC3015,Advanced Machining Processes,L16+L17
-MEC3028,Robot Programming,L33+L34
-MEC3029,Machining Processes and Workshop Technology,L45+L46
-MEC3029,Machining Processes and Workshop Technology,L57+L58
-MEC4003,Internal Combustion Engines,L2+L3
-MEC4008,Automobile Engineering,L4+L5
-MGT1001,Ethics and Values,L10+L11
-MGT1001,Ethics and Values,L10+L11
-MGT1001,Ethics and Values,L14+L15
-MGT1001,Ethics and Values,L14+L15
-MGT1001,Ethics and Values,L2+L3
-MGT1001,Ethics and Values,L20+L21
-MGT1001,Ethics and Values,L20+L21
-MGT1001,Ethics and Values,L22+L23
-MGT1001,Ethics and Values,L22+L23
-MGT1001,Ethics and Values,L22+L23
-MGT1001,Ethics and Values,L26+L27
-MGT1001,Ethics and Values,L26+L27
-MGT1001,Ethics and Values,L28+L29
-MGT1001,Ethics and Values,L28+L29
-MGT1001,Ethics and Values,L31+L32
-MGT1001,Ethics and Values,L31+L32
-MGT1001,Ethics and Values,L33+L34
-MGT1001,Ethics and Values,L33+L34
-MGT1001,Ethics and Values,L35+L36
-MGT1001,Ethics and Values,L35+L36
-MGT1001,Ethics and Values,L37+L38
-MGT1001,Ethics and Values,L37+L38
-MGT1001,Ethics and Values,L39+L40
-MGT1001,Ethics and Values,L39+L40
-MGT1001,Ethics and Values,L4+L5
-MGT1001,Ethics and Values,L41+L42
-MGT1001,Ethics and Values,L41+L42
-MGT1001,Ethics and Values,L43+L44
-MGT1001,Ethics and Values,L43+L44
-MGT1001,Ethics and Values,L45+L46
-MGT1001,Ethics and Values,L45+L46
-MGT1001,Ethics and Values,L47+L48
-MGT1001,Ethics and Values,L47+L48
-MGT1001,Ethics and Values,L49+L50
-MGT1001,Ethics and Values,L49+L50
-MGT1001,Ethics and Values,L51+L52
-MGT1001,Ethics and Values,L53+L54
-MGT1001,Ethics and Values,L53+L54
-MGT1001,Ethics and Values,L55+L56
-MGT1001,Ethics and Values,L55+L56
-MGT1001,Ethics and Values,L8+L9
-SWE1002,Principles of Software Engineering,L14+L15
-SWE1002,Principles of Software Engineering,L26+L27
-SWE1002,Principles of Software Engineering,L33+L34
-SWE1002,Principles of Software Engineering,L41+L42
-SWE1002,Principles of Software Engineering,L45+L46
-SWE1002,Principles of Software Engineering,L47+L48
-SWE1002,Principles of Software Engineering,L53+L54
-SWE1002,Principles of Software Engineering,L8+L9
-SWE2001,Data Structures and  Its Applications,L10+L11
-SWE2001,Data Structures and  Its Applications,L22+L23
-SWE2001,Data Structures and  Its Applications,L35+L36
-SWE2001,Data Structures and  Its Applications,L39+L40
-SWE2001,Data Structures and  Its Applications,L4+L5
-SWE2001,Data Structures and  Its Applications,L41+L42
-SWE2001,Data Structures and  Its Applications,L43+L44
-SWE2001,Data Structures and  Its Applications,L47+L48
-SWE2001,Data Structures and  Its Applications,L51+L52
-SWE2007,Fundamentals of Operating Systems,L2+L3
-SWE2007,Fundamentals of Operating Systems,L20+L21
-SWE2007,Fundamentals of Operating Systems,L26+L27
-SWE2007,Fundamentals of Operating Systems,L28+L29
-SWE2007,Fundamentals of Operating Systems,L31+L32
-SWE2007,Fundamentals of Operating Systems,L35+L36
-SWE2007,Fundamentals of Operating Systems,L37+L38
-SWE2007,Fundamentals of Operating Systems,L49+L50
-SWE2007,Fundamentals of Operating Systems,L53+L54
-SWE2008,Object Oriented Analysis and Design,L22+L23
-SWE2008,Object Oriented Analysis and Design,L37+L38
-SWE2008,Object Oriented Analysis and Design,L4+L5
-SWE2008,Object Oriented Analysis and Design,L51+L52
-SWE2009,Analysis of Algorithms,L22+L23
-SWE2009,Analysis of Algorithms,L37+L38
-SWE2009,Analysis of Algorithms,L4+L5
-SWE2009,Analysis of Algorithms,L49+L50
-SWE3004,Front End Design and Testing,L20+L21
-SWE3004,Front End Design and Testing,L31+L32
-SWE3004,Front End Design and Testing,L39+L40
-SWE3004,Front End Design and Testing,L8+L9
-SWE4001,Internet and Web Technologies,L2+L3
-SWE4001,Internet and Web Technologies,L20+L21
-SWE4001,Internet and Web Technologies,L33+L34
-SWE4001,Internet and Web Technologies,L35+L36
-SWE4001,Internet and Web Technologies,L39+L40
-SWE4001,Internet and Web Technologies,L45+L46
-SWE4001,Internet and Web Technologies,L8+L9
+COURSE CODE,COURSE TITLE,OFFERED TO,SLOT
+CSE1005 Software Engineering 23BCE C1+TC1
+CSE1005 Software Engineering 23BCE E1+TE1
+CSE1005 Software Engineering 23BCE F1+TF1
+CSE1005 Software Engineering 23BCE C2+TC2
+CSE1005 Software Engineering 23BCE E2+TE2
+CSE1005 Software Engineering 23BCE F2+TF2
+CSE1005 Software Engineering 23BCE C1+TC1
+CSE1005 Software Engineering 23BCE E1+TE1
+CSE1005 Software Engineering 23BCE F1+TF1
+CSE1005 Software Engineering 23BCE C2+TC2
+CSE1005 Software Engineering 23BCE E2+TE2
+CSE1005 Software Engineering 23BCE F2+TF2
+CSE1005 Software Engineering 23BCE C1+TC1
+CSE1005 Software Engineering 23BCE E1+TE1
+CSE1005 Software Engineering 23BCE F1+TFF1
+CSE1005 Software Engineering 23BCE C2+TC2
+CSE1005 Software Engineering 23BCE E2+TE2
+CSE1005 Software Engineering 23BCE F2+SF1
+CSE1005 Software Engineering 23BCE C1+TC1
+CSE1005 Software Engineering 23BCE E1+TE1
+CSE1005 Software Engineering 23BCE C1+TC1
+CSE1005 Software Engineering 23BCE C2+TC2
+CSE1005 Software Engineering 23BCE E2+TE2
+CSE1005 Software Engineering 23BCE F2+TF2
+CSE1005 Software Engineering 23BCE C1+TC1
+CSE1005 Software Engineering 23BCE E1+TE1
+CSE1005 Software Engineering 23BCE F1+TF1
+CSE1005 Software Engineering 23BCE C2+TC2
+CSE1005 Software Engineering 23BCE E2+TE2
+CSE1005 Software Engineering 23BCE F2+TF2
+CSE1005 Software Engineering 23BCE C1+TC1
+CSE1005 Software Engineering 23BCE E1+TE1
+CSE1005 Software Engineering 23BCE F1+TF1
+CSE1005 Software Engineering 23BCE C2+TC2
+CSE1005 Software Engineering 23BCE E2+TE2
+CSE1005 Software Engineering 23BCE F2+TF2
+CSE1005 Software Engineering 23BCE F1+TF1
+CSE1005 Software Engineering 23BCE E1+TE1
+CSE1005 Software Engineering 23BCE F2+TF2
+CSE1005 Software Engineering 23BCE E2+TE2
+CSE1006 Foundations for Data Analytics 23MIC/23MIS G1
+
+ANNEXURE - II(A) THEORY SLOTS
+
+CSE1006 Foundations for Data Analytics 23MIC/23MIS G2
+CSE1006 Foundations for Data Analytics 23MIC/23MIS F1
+CSE1006 Foundations for Data Analytics 23MIC/23MIS F2
+CSE1008 Theory of Computation 22BCE A1+TA1+TAA1
+CSE1008 Theory of Computation 22BCE B1+TB1+TBB1
+CSE1008 Theory of Computation 22BCE D1+TD1+TDD1
+CSE1008 Theory of Computation 22BCE A2+TA2+TAA2
+CSE1008 Theory of Computation 22BCE B2+TB2+TBB2
+CSE1008 Theory of Computation 22BCE D2+TD2+TDD2
+CSE1008 Theory of Computation 22BCE A1+TA1+TAA1
+CSE1008 Theory of Computation 22BCE B1+TB1+TBB1
+CSE1008 Theory of Computation 22BCE D1+TD1+TDD1
+CSE1008 Theory of Computation 22BCE A2+TA2+TAA2
+CSE1008 Theory of Computation 22BCE B2+TB2+TBB2
+CSE1008 Theory of Computation 22BCE D2+TD2+TDD2
+CSE1008 Theory of Computation 22BCE A1+TA1+TAA1
+CSE1008 Theory of Computation 22BCE B1+TB1+TBB1
+CSE1008 Theory of Computation 22BCE D1+TD1+TDD1
+CSE1008 Theory of Computation 22BCE A2+TA2+TAA2
+CSE1008 Theory of Computation 22BCE B2+TB2+TBB2
+CSE1008 Theory of Computation 22BCE D2+TD2+TDD2
+CSE1008 Theory of Computation 22BCE A1+TA1+TAA1
+CSE1008 Theory of Computation 22BCE B1+TB1+TBB1
+CSE1008 Theory of Computation 22BCE D1+TD1+TDD1
+CSE1008 Theory of Computation 22BCE A2+TA2+TAA2
+CSE1008 Theory of Computation 22BCE B2+TB2+TBB2
+CSE1008 Theory of Computation 22BCE D2+TD2+TDD2
+CSE1008 Theory of Computation 22BCE A1+TA1+TAA1
+CSE1008 Theory of Computation 22BCE B1+TB1+TBB1
+CSE1008 Theory of Computation 22BCE D1+TD1+TDD1
+CSE1008 Theory of Computation 22BCE A2+TA2+TAA2
+CSE1008 Theory of Computation 22BCE B2+TB2+TBB2
+CSE1008 Theory of Computation 22BCE D2+TD2+TDD2
+CSE1008 Theory of Computation 22BCE A1+TA1+TAA1
+CSE1008 Theory of Computation 22BCE B1+TB1+TBB1
+CSE1008 Theory of Computation 22BCE D1+TD1+TDD1
+CSE1008 Theory of Computation 22BCE A2+TA2+TAA2
+CSE1008 Theory of Computation 22BCE B2+TB2+TBB2
+CSE1008 Theory of Computation 22BCE D2+TD2+TDD2
+CSE1008 Theory of Computation 22BCE B1+TB1+TBB1
+CSE1008 Theory of Computation 22BCE D1+TD1+TDD1
+CSE2003 Requirements Engineering Management 23BCE - SWEng B2+TB2
+CSE2004 Software Design and Architecture 22BCE - SWEng A2+TA2
+CSE2007 Database Management Systems 23BCE A1+TA1
+CSE2007 Database Management Systems 23BCE A2+TA2
+CSE2007 Database Management Systems 23BCE B1+TB1
+CSE2007 Database Management Systems 23BCE B2+TB2
+
+CSE2007 Database Management Systems 23BCE D1+TD1
+CSE2007 Database Management Systems 23BCE D2+TD2
+CSE2007 Database Management Systems 23BCE A1+TA1
+CSE2007 Database Management Systems 23BCE A2+TA2
+CSE2007 Database Management Systems 23BCE B1+TB1
+CSE2007 Database Management Systems 23BCE B2+TB2
+CSE2007 Database Management Systems 23BCE D1+TD1
+CSE2007 Database Management Systems 23BCE D2+TD2
+CSE2007 Database Management Systems 23BCE A1+TA1
+CSE2007 Database Management Systems 23BCE A2+TA2
+CSE2007 Database Management Systems 23BCE B1+TB1
+CSE2007 Database Management Systems 23BCE B2+TB2
+CSE2007 Database Management Systems 23BCE D1+TD1
+CSE2007 Database Management Systems 23BCE D2+TD2
+CSE2007 Database Management Systems 23BCE A1+TA1
+CSE2007 Database Management Systems 23BCE A2+TA2
+CSE2007 Database Management Systems 23BCE B1+TB1
+CSE2007 Database Management Systems 23BCE B2+TB2
+CSE2007 Database Management Systems 23BCE D1+TD1
+CSE2007 Database Management Systems 23BCE D2+TD2
+CSE2007 Database Management Systems 23BCE A1+TA1
+CSE2007 Database Management Systems 23BCE A2+TA2
+CSE2007 Database Management Systems 23BCE B1+TB1
+CSE2007 Database Management Systems 23BCE B2+TB2
+CSE2007 Database Management Systems 23BCE D1+TD1
+CSE2007 Database Management Systems 23BCE D2+TD2
+CSE2007 Database Management Systems 23BCE A1+TA1
+CSE2007 Database Management Systems 23BCE A2+TA2
+CSE2007 Database Management Systems 23BCE B1+TB1
+CSE2007 Database Management Systems 23BCE B2+TB2
+CSE2007 Database Management Systems 23BCE D1+TD1
+CSE2007 Database Management Systems 23BCE D2+TD2
+CSE2007 Database Management Systems 23BCE A1+TA1
+CSE2007 Database Management Systems 23BCE A2+TA2
+CSE2007 Database Management Systems 23BCE B1+TB1
+CSE2007 Database Management Systems 23BCE B2+TB2
+CSE2009 Soft Computing 23BCE - Core A1+TA1
+CSE2009 Soft Computing 23BCE - Core A2+TA2
+CSE2009 Soft Computing 23BCE - Core B2+TB2
+CSE2011 Cyber Security and Digital Forensics 23BCE - CYBER SEC C1+TC1
+CSE2011 Cyber Security and Digital Forensics 23BCE - CYBER SEC C2+TC2
+CSE2013 Information Theory and Coding 22BCE - Core B1+TB1+TBB1
+CSE2013 Information Theory and Coding 22BCE - Core B2+TB2+TBB2
+CSE2013 Information Theory and Coding 22BCE - Core A1+TA1+TAA1
+CSE2013 Information Theory and Coding 22BCE - Core A2+TA2+TAA2
+CSE2013 Information Theory and Coding 22BCE - Core C1+TC1+TCC1
+CSE2013 Information Theory and Coding 22BCE - Core C2+TC2+TCC2
+
+CSE2024 Blockchain Architecture Design 23BCE - BLK CHAIN E1+TE1
+CSE2024 Blockchain Architecture Design 23BCE - BLK CHAIN E2+TE2
+CSE3002 Artificial Intelligence 23BCE - AIML A1+TA1
+CSE3002 Artificial Intelligence 23BCE - AIML A2+TA2
+CSE3002 Artificial Intelligence 23BCE - AIML F1+TF1
+CSE3004 Design and Analysis of Algorithm 22BCE C1+TC1
+CSE3004 Design and Analysis of Algorithm 22BCE E1+TE1
+CSE3004 Design and Analysis of Algorithm 22BCE F1+TF1
+CSE3004 Design and Analysis of Algorithm 22BCE C2+TC2
+CSE3004 Design and Analysis of Algorithm 22BCE E2+TE2
+CSE3004 Design and Analysis of Algorithm 22BCE F2+TF2
+CSE3004 Design and Analysis of Algorithm 22BCE C1+TC1
+CSE3004 Design and Analysis of Algorithm 22BCE E1+TE1
+CSE3004 Design and Analysis of Algorithm 22BCE F1+TF1
+CSE3004 Design and Analysis of Algorithm 22BCE C2+TC2
+CSE3004 Design and Analysis of Algorithm 22BCE F2+TF2
+CSE3004 Design and Analysis of Algorithm 22BCE C1+TC1
+CSE3004 Design and Analysis of Algorithm 22BCE E1+TE1
+CSE3004 Design and Analysis of Algorithm 22BCE F1+TFF1
+CSE3004 Design and Analysis of Algorithm 22BCE C2+TC2
+CSE3004 Design and Analysis of Algorithm 22BCE E2+TE2
+CSE3004 Design and Analysis of Algorithm 22BCE F2+SF1
+CSE3004 Design and Analysis of Algorithm 22BCE C1+TC1
+CSE3004 Design and Analysis of Algorithm 22BCE E1+TE1
+CSE3004 Design and Analysis of Algorithm 22BCE F1+TF1
+CSE3004 Design and Analysis of Algorithm 22BCE C2+TC2
+CSE3004 Design and Analysis of Algorithm 22BCE E2+TE2
+CSE3004 Design and Analysis of Algorithm 22BCE F2+TF2
+CSE3004 Design and Analysis of Algorithm 22BCE C1+TC1
+CSE3004 Design and Analysis of Algorithm 22BCE E1+TE1
+CSE3004 Design and Analysis of Algorithm 22BCE F1+TF1
+CSE3004 Design and Analysis of Algorithm 22BCE C2+TC2
+CSE3004 Design and Analysis of Algorithm 22BCE E2+TE2
+CSE3004 Design and Analysis of Algorithm 22BCE F2+TF2
+CSE3004 Design and Analysis of Algorithm 22BCE C1+TC1
+CSE3004 Design and Analysis of Algorithm 22BCE E1+TE1
+CSE3004 Design and Analysis of Algorithm 22BCE F1+TF1
+CSE3004 Design and Analysis of Algorithm 22BCE C2+TC2
+CSE3004 Design and Analysis of Algorithm 22BCE E2+TE2
+CSE3004 Design and Analysis of Algorithm 22BCE F2+TF2
+CSE3004 Design and Analysis of Algorithm 22BCE C1+TC1
+CSE3004 Design and Analysis of Algorithm 22BCE E1+TE1
+CSE3004 Design and Analysis of Algorithm 22BCE C2+TC2
+CSE3006 Data Visualization 23BCE - DA C1+TC1
+CSE3006 Data Visualization 23BCE - DA C2+TC2
+CSE3006 Data Visualization 23BCE - DA E1+TE1
+CSE3006 Data Visualization 23BCE - DA E2+TE2
+
+CSE3006 Data Visualization 23BCE - DA C2+TC2
+CSE3008 Introduction to Machine Learning 23BCE - AIML D1+TD1
+CSE3008 Introduction to Machine Learning 23BCE - AIML D2+TD2
+CSE3008 Introduction to Machine Learning 23BCE - AIML B1+TB1
+CSE3008 Introduction to Machine Learning 23BCE - AIML B2+TB2
+CSE3008 Introduction to Machine Learning 23BCE - AIML D1+TD1
+CSE3008 Introduction to Machine Learning 23BCE - AIML D2+TD2
+CSE3008 Introduction to Machine Learning 23BCE - AIML B1+TB1
+CSE3008 Introduction to Machine Learning 23BCE - AIML B2+TB2
+CSE3008 Introduction to Machine Learning 23BCE - AIML D1+TD1
+CSE3008 Introduction to Machine Learning 23BCE - AIML D2+TD2
+CSE3008 Introduction to Machine Learning 23BCE - AIML B1+TB1
+CSE3008 Introduction to Machine Learning 23BCE - AIML B2+TB2
+CSE3008 Introduction to Machine Learning 23BCE - AIML D1+TD1
+CSE3008 Introduction to Machine Learning 23BCE - AIML D2+TD2
+CSE3008 Introduction to Machine Learning 23BCE - AIML B1+TB1
+CSE3008 Introduction to Machine Learning 22MIC/22MIS C1+TC1
+CSE3008 Introduction to Machine Learning 22MIC/22MIS C2+TC2
+CSE3008 Introduction to Machine Learning 22MIC/22MIS C1+TC1
+CSE3008 Introduction to Machine Learning 22MIC/22MIS C2+TC2
+CSE3008 Introduction to Machine Learning 21MIC/21MIS C1+TC1
+CSE3008 Introduction to Machine Learning 21MIC/21MIS C2+TC2
+CSE3008 Introduction to Machine Learning 21MIC/21MIS G1+TG1
+CSE3009 NoSQL Databases 22BCE - DA D1+TD1
+CSE3009 NoSQL Databases 22BCE - DA D2+TD2
+CSE3009 NoSQL Databases 22BCE - DA E1+TE1
+CSE3012 Network Security 22BCE - CYBER SEC C1+TC1
+CSE3012 Network Security 22BCE - CYBER SEC F1+TFF1
+CSE3012 Network Security 22BCE - CYBER SEC F2+TF2
+CSE3015 Natural Language Processing 22BCE - AIML A1+TA1
+CSE3015 Natural Language Processing 22BCE - AIML A2+TA2
+CSE3015 Natural Language Processing 22BCE - AIML E1+TE1
+CSE3015 Natural Language Processing 22BCE - AIML E2+TE2
+CSE3015 Natural Language Processing 22BCE - AIML C1+TC1
+CSE3015 Natural Language Processing 22BCE - AIML C2+TC2
+CSE3015 Natural Language Processing 22BCE - AIML A1+TA1
+CSE3015 Natural Language Processing 22BCE - AIML A2+TA2
+CSE3015 Natural Language Processing 22BCE - AIML E1+TE1
+CSE3015 Natural Language Processing 22BCE - AIML E2+TE2
+CSE3015 Natural Language Processing 22BCE - AIML C1+TC1
+CSE3015 Natural Language Processing 22BCE - AIML C2+TC2
+CSE3015 Natural Language Processing 22BCE - AIML A1+TA1
+CSE3015 Natural Language Processing 22BCE - AIML A2+TA2
+CSE3015 Natural Language Processing 22BCE - AIML E1+TE1
+CSE3015 Natural Language Processing 22BCE - AIML E2+TE2
+CSE3015 Natural Language Processing 22BCE - AIML C1+TC1
+CSE3015 Natural Language Processing 22BCE - AIML C2+TC2
+
+CSE3015 Natural Language Processing 22BCE - AIML A1+TA1
+CSE3015 Natural Language Processing 22BCE - AIML A2+TA2
+CSE3015 Natural Language Processing 22BCE - AIML E1+TE1
+CSE3015 Natural Language Processing 22BCE - AIML E2+TE2
+CSE3015 Natural Language Processing 22BCE - AIML C1+TC1
+CSE3015 Natural Language Processing 22BCE - AIML C2+TC2
+CSE3018 Software Configuration Management 22MIC/22MIS A1+TA1
+CSE3018 Software Configuration Management 22MIC/22MIS A2+TA2
+CSE3018 Software Configuration Management 22MIC/22MIS B1+TB1
+CSE3018 Software Configuration Management 22MIC/22MIS B2+TB2
+CSE3035 Blockchain and Distributed Ledger Technology 22BCE - BLK CHAIN A1+TA1
+CSE3035 Blockchain and Distributed Ledger Technology 22BCE - BLK CHAIN A2+TA2
+CSE3041 Malware Analysis 22BCE - CYBER SEC C1+TC1
+CSE3041 Malware Analysis 22BCE - CYBER SEC C2+TC2
+CSE3041 Malware Analysis 22BCE - CYBER SEC G1+TG1
+CSE4001 Cloud Computing 22BCE - Core G2+TG2
+CSE4001 Cloud Computing 22BCE - Core E1+TE1
+CSE4001 Cloud Computing 22BCE - Core E2+TE2
+CSE4005 Data Warehousing and Data Mining 22BCE - Core D1+TD1
+CSE4005 Data Warehousing and Data Mining 22BCE - Core D2+TD2
+CSE4005 Data Warehousing and Data Mining 22BCE - Core G1+TG1
+CSE4006 Deep Learning 22BCE - AIML B1+TB1
+CSE4006 Deep Learning 22BCE - AIML B2+TB2
+CSE4006 Deep Learning 22BCE - AIML D1+TD1
+CSE4006 Deep Learning 22BCE - AIML D2+TD2
+CSE4006 Deep Learning 22BCE - AIML F1+TF1
+CSE4006 Deep Learning 22BCE - AIML F2+TF2
+CSE4006 Deep Learning 22BCE - AIML B1+TB1
+CSE4006 Deep Learning 22BCE - AIML B2+TB2
+CSE4006 Deep Learning 22BCE - AIML D1+TD1
+CSE4006 Deep Learning 22BCE - AIML D2+TD2
+CSE4006 Deep Learning 22BCE - AIML F1+TF1
+CSE4006 Deep Learning 22BCE - AIML F2+TF2
+CSE4006 Deep Learning 22BCE - AIML B1+TB1
+CSE4006 Deep Learning 22BCE - AIML B2+TB2
+CSE4006 Deep Learning 22BCE - AIML D1+TD1
+CSE4006 Deep Learning 22BCE - AIML D2+TD2
+CSE4006 Deep Learning 22BCE - AIML F1+TFF1
+CSE4006 Deep Learning 22BCE - AIML F2+SF1
+CSE4006 Deep Learning 22BCE - AIML B1+TB1
+CSE4006 Deep Learning 22BCE - AIML B2+TB2
+CSE4006 Deep Learning 22BCE - AIML D1+TD1
+CSE4006 Deep Learning 22BCE - AIML D2+TD2
+CSE4006 Deep Learning 22BCE - AIML F1+TFF1
+CSE4006 Deep Learning 22BCE - AIML F2+SF1
+CSE4007 Digital Image Processing 23BCE - Core A1+TA1
+CSE4007 Digital Image Processing 23BCE - Core A2+TA2
+
+CSE4007 Digital Image Processing 23BCE - Core F2+TF2
+CSE4011 Internet of Things 22BCE - Core G2+TG2
+CSE4011 Internet of Things 22BCE - Core F1+TFF1
+CSE4011 Internet of Things 22BCE - Core F2+SF1
+CSE4016 Database Administration 22BCE - DA F1+TF1
+CSE4016 Database Administration 22BCE - DA F2+SF1
+CSE4016 Database Administration 22BCE - DA G1+TG1
+CSE4049 Software Project Management 22BCE - SWEng B2+TB2
+ECE1008 Sensors and Control Systems 22BME -ROB/22BME - DM E1+TE1
+ECE1010 Probability and Random Processes 23BEC A1+TA1+TAA1
+ECE1010 Probability and Random Processes 23BEC A2+TA2+TAA2
+ECE1010 Probability and Random Processes 23BEC B1+TB1+TBB1
+ECE1010 Probability and Random Processes 23BEC B2+TB2+TBB2
+ECE1010 Probability and Random Processes 23BEC A2+TA2+TAA2
+ECE1011 Hybrid and Electric Vehicles 22BEC - EVT B2+TB2+TBB2
+ECE2001 Analog Devices and Circuits 23BEC C1+TC1
+ECE2001 Analog Devices and Circuits 23BEC C2+TC2
+ECE2001 Analog Devices and Circuits 23BEC D1+TD1
+ECE2001 Analog Devices and Circuits 23BEC D2+TD2
+ECE2001 Analog Devices and Circuits 23BEC C2+TC2
+ECE2002 Computer Organization and Architecture 23BCE A1+TA1+TAA1
+ECE2002 Computer Organization and Architecture 23BCE B1+TB1+TBB1
+ECE2002 Computer Organization and Architecture 23BCE D1+TD1+TDD1
+ECE2002 Computer Organization and Architecture 23BCE A2+TA2+TAA2
+ECE2002 Computer Organization and Architecture 23BCE B2+TB2+TBB2
+ECE2002 Computer Organization and Architecture 23BCE D2+TD2+TDD2
+ECE2002 Computer Organization and Architecture 23BCE A1+TA1+TAA1
+ECE2002 Computer Organization and Architecture 23BCE B1+TB1+TBB1
+ECE2002 Computer Organization and Architecture 23BCE D1+TD1+TDD1
+ECE2002 Computer Organization and Architecture 23BCE A2+TA2+TAA2
+ECE2002 Computer Organization and Architecture 23BCE B2+TB2+TBB2
+ECE2002 Computer Organization and Architecture 23BCE D2+TD2+TDD2
+ECE2002 Computer Organization and Architecture 23BCE A1+TA1+TAA1
+ECE2002 Computer Organization and Architecture 23BCE B1+TB1+TBB1
+ECE2002 Computer Organization and Architecture 23BCE D1+TD1+TDD1
+ECE2002 Computer Organization and Architecture 23BCE A2+TA2+TAA2
+ECE2002 Computer Organization and Architecture 23BCE B2+TB2+TBB2
+ECE2002 Computer Organization and Architecture 23BCE D2+TD2+TDD2
+ECE2002 Computer Organization and Architecture 23BCE A1+TA1+TAA1
+ECE2002 Computer Organization and Architecture 23BCE B1+TB1+TBB1
+ECE2002 Computer Organization and Architecture 23BCE D1+TD1+TDD1
+ECE2002 Computer Organization and Architecture 23BCE A2+TA2+TAA2
+ECE2002 Computer Organization and Architecture 23BCE B2+TB2+TBB2
+ECE2002 Computer Organization and Architecture 23BCE D2+TD2+TDD2
+ECE2002 Computer Organization and Architecture 23BCE A1+TA1+TAA1
+ECE2002 Computer Organization and Architecture 23BCE B1+TB1+TBB1
+ECE2002 Computer Organization and Architecture 23BCE D1+TD1+TDD1
+
+ECE2002 Computer Organization and Architecture 23BCE A2+TA2+TAA2
+ECE2002 Computer Organization and Architecture 23BCE B2+TB2+TBB2
+ECE2002 Computer Organization and Architecture 23BCE D2+TD2+TDD2
+ECE2002 Computer Organization and Architecture 23BCE A1+TA1+TAA1
+ECE2002 Computer Organization and Architecture 23BCE B1+TB1+TBB1
+ECE2002 Computer Organization and Architecture 23BCE D1+TD1+TDD1
+ECE2002 Computer Organization and Architecture 23BCE A2+TA2+TAA2
+ECE2002 Computer Organization and Architecture 23BCE B2+TB2+TBB2
+ECE2002 Computer Organization and Architecture 23BCE D2+TD2+TDD2
+ECE2002 Computer Organization and Architecture 23BCE D2+TD2+TDD2
+ECE2002 Computer Organization and Architecture 23BCE A1+TA1+TAA1
+ECE2002 Computer Organization and Architecture 23BCE D1+TD1+TDD1
+ECE2002 Computer Organization and Architecture 23BCE A2+TA2+TAA2
+ECE2006 Communication Systems 22BEC B1+TB1
+ECE2006 Communication Systems 22BEC B2+TB2
+ECE2006 Communication Systems 22BEC D1+TD1
+ECE2006 Communication Systems 22BEC D2+TD2
+ECE2009 Data Acquisition and Transmission Systems 23BEC - ES B1+TB1
+ECE2014 Microprocessors and Microcontrollers 23BEC E1+TE1
+ECE2014 Microprocessors and Microcontrollers 23BEC E2+TE2
+ECE2014 Microprocessors and Microcontrollers 23BEC F1+TF1
+ECE2014 Microprocessors and Microcontrollers 23BEC F2+TF2
+ECE2014 Microprocessors and Microcontrollers 23BEC E2+TE2
+ECE2015 Computer Architecture 23MIC A1+TA1+TAA1
+ECE2015 Computer Architecture 23MIC A2+TA2+TAA2
+ECE2015 Computer Architecture 23MIC B1+TB1+TBB1
+ECE2015 Computer Architecture 23MIC B2+TB2+TBB2
+ECE3001 Linear Integrated Circuits and Applications 22BEC A1+TA1
+ECE3001 Linear Integrated Circuits and Applications 22BEC A2+TA2
+ECE3001 Linear Integrated Circuits and Applications 22BEC C1+TC1
+ECE3001 Linear Integrated Circuits and Applications 22BEC C2+TC2
+ECE3002 Antennas and wave propagation 23BEC B2+TB2
+ECE3004 Embedded Hardware Software System Design 22BEC - ES E2+TE2
+ECE3005 CMOS VLSI Design 22BEC - VLSI E1+TE1
+ECE3006 HDL Verification and Methodology 23BEC - VLSI D1+TD1
+ECE3008 Neural Networks and Fuzzy systems 23BEC D2+TD2+TDD2
+ECE3010 Speech Processing 22BEC - IVP B1+TB1
+ECE3023 Scripting Languages 22BEC - Core D1+TD1
+ECE4004 Automotive Electrical and Electronic systems 22BEC - ES/22BEC - EVT E1+TE1+TEE1
+ECE4006 Analog IC Design 22BEC - VLSI F1+TFF1
+ECE4011 Robotics and Automation 22BEC - ES A2+TA2+TAA2
+ECE4017 IoT Domain Analyst 22BEC - IOT C2
+ECE4018 Image Analysis and Computer Vision 22BEC - IVP A1+TA1
+FRL2004 Korean for Beginners 22BEC G1
+FRL1005 German for Beginners 22BEC G2
+FRL1004 Basic Spanish 22BEC F1
+FRL1002 French for Beginners 22BEC F2
+
+MAT1011 Applied Statistics 23BCE/23BEC/23BME C1+TC1
+MAT1011 Applied Statistics 23BCE/23BEC/23BME E1+TE1
+MAT1011 Applied Statistics 23BCE/23BEC/23BME F1+TF1
+MAT1011 Applied Statistics 23BCE/23BEC/23BME C2+TC2
+MAT1011 Applied Statistics 23BCE/23BEC/23BME E2+TE2
+MAT1011 Applied Statistics 23BCE/23BEC/23BME F2+TF2
+MAT1011 Applied Statistics 23BCE/23BEC/23BME C1+TC1
+MAT1011 Applied Statistics 23BCE/23BEC/23BME E1+TE1
+MAT1011 Applied Statistics 23BCE/23BEC/23BME F1+TF1
+MAT1011 Applied Statistics 23BCE/23BEC/23BME C2+TC2
+MAT1011 Applied Statistics 23BCE/23BEC/23BME E2+TE2
+MAT1011 Applied Statistics 23BCE/23BEC/23BME F2+TF2
+MAT1011 Applied Statistics 23BCE/23BEC/23BME C1+TC1
+MAT1011 Applied Statistics 23BCE/23BEC/23BME E1+TE1
+MAT1011 Applied Statistics 23BCE/23BEC/23BME F1+TFF1
+MAT1011 Applied Statistics 23BCE/23BEC/23BME C2+TC2
+MAT1011 Applied Statistics 23BCE/23BEC/23BME E2+TE2
+MAT1011 Applied Statistics 23BCE/23BEC/23BME F2+SF1
+MAT1011 Applied Statistics 23BCE/23BEC/23BME C1+TC1
+MAT1011 Applied Statistics 23BCE/23BEC/23BME E1+TE1
+MAT1011 Applied Statistics 23BCE/23BEC/23BME F1+TF1
+MAT1011 Applied Statistics 23BCE/23BEC/23BME C2+TC2
+MAT1011 Applied Statistics 23BCE/23BEC/23BME E2+TE2
+MAT1011 Applied Statistics 23BCE/23BEC/23BME F2+TF2
+MAT1011 Applied Statistics 23BCE/23BEC/23BME C1+TC1
+MAT1011 Applied Statistics 23BCE/23BEC/23BME E1+TE1
+MAT1011 Applied Statistics 23BCE/23BEC/23BME F1+TF1
+MAT1011 Applied Statistics 23BCE/23BEC/23BME C2+TC2
+MAT1011 Applied Statistics 23BCE/23BEC/23BME E2+TE2
+MAT1011 Applied Statistics 23BCE/23BEC/23BME F2+TF2
+MAT1011 Applied Statistics 23BCE/23BEC/23BME C1+TC1
+MAT1011 Applied Statistics 23BCE/23BEC/23BME E1+TE1
+MAT1011 Applied Statistics 23BCE/23BEC/23BME F1+TF1
+MAT1011 Applied Statistics 23BCE/23BEC/23BME C2+TC2
+MAT1011 Applied Statistics 23BCE/23BEC/23BME E2+TE2
+MAT1011 Applied Statistics 23BCE/23BEC/23BME F2+TF2
+MAT1011 Applied Statistics 23BCE/23BEC/23BME F1+TF1
+MAT1011 Applied Statistics 23BCE/23BEC/23BME C1+TC1
+MAT1011 Applied Statistics 23BCE/23BEC/23BME F2+TF2
+MAT1011 Applied Statistics 23BCE/23BEC/23BME C2+TC2
+MAT1011 Applied Statistics 23BCE/23BEC/23BME C1+TC1
+MAT1011 Applied Statistics 23BCE/23BEC/23BME E1+TE1
+MAT1011 Applied Statistics 23BCE/23BEC/23BME F1+TF1
+MAT1011 Applied Statistics 23BCE/23BEC/23BME C2+TC2
+MAT1011 Applied Statistics 23BCE/23BEC/23BME E2+TE2
+MAT1011 Applied Statistics 23BCE/23BEC/23BME F2+TF2
+MAT2003 Optimization Techniques 23BCE - DA C1+TC1
+
+MAT2003 Optimization Techniques 23BCE - DA C2+TC2
+MAT2003 Optimization Techniques 23BCE - DA D1+TD1
+MAT2003 Optimization Techniques 23BCE - DA D2+TD2
+MAT2003 Optimization Techniques 23BCE - DA C1+TC1
+MAT2003 Optimization Techniques 23BCE - DA C2+TC2
+MAT2003 Optimization Techniques 23BCE - DA D1+TD1
+MAT2003 Optimization Techniques 23BCE - DA D2+TD2
+MAT2003 Optimization Techniques 23BCE - DA C1+TC1
+MEC2005 Fundamentals of Manufacturing Processes 23BME E1+TE1
+MEC2005 Fundamentals of Manufacturing Processes 23BME E2+TE2
+MEC2008 Product Design and Development 22BME - DM B1+TB1+TBB1
+MEC2014 Production Planning and Inventory Control 22BME - Core C2+TC2
+MEC2018 Thermal Engineering Systems 23BME A1+TA1
+MEC2018 Thermal Engineering Systems 23BME A2+TA2
+MEC2021 Mechatronics 22BME - MECHATRONICS B2+TB2+TBB2
+MEC3002 Theory of Machines 23BME B1+TB1
+MEC3002 Theory of Machines 23BME B2+TB2
+MEC3006 Fluid Dynamics and Hydraulic Machines 22BME - Core E2+TE2
+MEC3010 Renewable Source of Energy 22BME - Core C1+TC1
+MEC3011 Operations Research 22BME - Core F2+SF1
+MEC3012 Additive Manufacturing 22BME - DM F1+TFF1
+MEC3015 Advanced Machining Processes 22BME - Core D1+TD1
+MEC3027 Robot Dynamics 22BME - ROB A1+TA1+TAA1
+MEC4001 Computational Fluid Dynamics 22BME - Core D2+TD2
+MEC4004 Refrigeration and Air Conditioning 22BME - Core F1+TFF1
+MEC4008 Automobile Engineering 22BME - AD A2+TA2
+MEC4017 Introduction to Mechanical Vibrations 22BME - Core F2+SF1
+MGT1040 Entrepreneurship 23BCE/23BEC/23BME F1
+MGT1040 Entrepreneurship 23BCE/23BEC/23BME F2
+MGT1040 Entrepreneurship 23BCE/23BEC/23BME G1
+MGT1040 Entrepreneurship 23BCE/23BEC/23BME G2
+MGT1040 Entrepreneurship 23BCE/23BEC/23BME A1
+MGT1040 Entrepreneurship 23BCE/23BEC/23BME A2
+MGT1040 Entrepreneurship 23BCE/23BEC/23BME F1
+MGT1040 Entrepreneurship 23BCE/23BEC/23BME F2
+MGT1040 Entrepreneurship 23BCE/23BEC/23BME G1
+MGT1040 Entrepreneurship 23BCE/23BEC/23BME G2
+MGT1040 Entrepreneurship 23BCE/23BEC/23BME E1
+MGT1040 Entrepreneurship 23BCE/23BEC/23BME E2
+MGT1040 Entrepreneurship 23BCE/23BEC/23BME F1
+MGT1040 Entrepreneurship 23BCE/23BEC/23BME F2
+MGT1040 Entrepreneurship 23BCE/23BEC/23BME A1
+MGT1040 Entrepreneurship 23BCE/23BEC/23BME A2
+MGT1040 Entrepreneurship 23BCE/23BEC/23BME E1
+MGT1040 Entrepreneurship 23BCE/23BEC/23BME E2
+MGT1040 Entrepreneurship 23BCE/23BEC/23BME F1
+MGT1040 Entrepreneurship 23BCE/23BEC/23BME F2
+
+STS1007 Arithmetic Problem Solving 23MIC A1+TA1
+STS1007 Arithmetic Problem Solving 23MIC A2+TA2
+STS1007 Arithmetic Problem Solving 23MIC B1+TB1
+STS1007 Arithmetic Problem Solving 23MIC B2+TB2
+STS2007 Enhancing Problem Solving Skills 22MIC/22MIS A1+TA1
+STS2007 Enhancing Problem Solving Skills 22MIC/22MIS A2+TA2
+STS2007 Enhancing Problem Solving Skills 22MIC/22MIS F1+TFF1
+STS2007 Enhancing Problem Solving Skills 22MIC/22MIS F2+SF1
+STS2007 Enhancing Problem Solving Skills 22MIC/22MIS G1+TG1
+STS2007 Enhancing Problem Solving Skills 22MIC/22MIS G2+TG2
+STS2007 Enhancing Problem Solving Skills 22MIC/22MIS E2+TE2
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME A1+TA1
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME B1+TB1
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME C1+TC1
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME D1+TD1
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME E1+TE1
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME F1+TF1
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME G1+TG1
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME A2+TA2
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME B2+TB2
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME C2+TC2
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME D2+TD2
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME E2+TE2
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME F2+TF2
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME G2+TG2
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME A1+TA1
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME B1+TB1
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME C1+TC1
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME D1+TD1
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME E1+TE1
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME F1+TF1
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME G1+TG1
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME A2+TA2
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME B2+TB2
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME C2+TC2
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME D2+TD2
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME E2+TE2
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME F2+TF2
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME G2+TG2
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME A1+TA1
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME B1+TB1
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME C1+TC1
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME D1+TD1
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME E1+TE1
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME A2+TA2
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME B2+TB2
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME C2+TC2
+
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME D2+TD2
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME E2+TE2
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME B1+TB1
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME C1+TC1
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME D1+TD1
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME E1+TE1
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME B2+TB2
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME C2+TC2
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME D2+TD2
+STS2009 Arithmetic Problem Solving Skills 23BCE/23BEC/23BME E2+TE2
+STS2009 Arithmetic Problem Solving Skills 23MIS C1+TC1
+STS2009 Arithmetic Problem Solving Skills 23MIS C2+TC2
+STS2009 Arithmetic Problem Solving Skills 23MIS D1+TD1
+STS2009 Arithmetic Problem Solving Skills 23MIS D2+TD2
+STS4003 Enhancing Programming Ability 21MIC/21MIS B1+TB1
+STS4003 Enhancing Programming Ability 21MIC/21MIS B2+TB2
+STS4003 Enhancing Programming Ability 21MIC/21MIS E1+TE1
+STS4003 Enhancing Programming Ability 21MIC/21MIS E2+TE2
+STS4003 Enhancing Programming Ability 21MIC/21MIS E1+TE1
+STS4006 Advanced Competitive Coding - II 22BCE A1+TA1
+STS4006 Advanced Competitive Coding - II 22BCE A2+TA2
+STS4006 Advanced Competitive Coding - II 22BCE B1+TB1
+STS4006 Advanced Competitive Coding - II 22BCE B2+TB2
+STS4005 Basic Competitive Coding - II 22BEC/22BME C1+TC1
+STS4005 Basic Competitive Coding - II 22BEC/22BME C2+TC2
+STS4006 Advanced Competitive Coding - II 22BCE D1+TD1
+STS4006 Advanced Competitive Coding - II 22BCE D2+TD2
+STS4005 Basic Competitive Coding - II 22BEC/22BME E1+TE1
+STS4005 Basic Competitive Coding - II 22BEC/22BME E2+TE2
+STS4006 Advanced Competitive Coding - II 22BCE F1+TF1
+STS4006 Advanced Competitive Coding - II 22BCE F2+TF2
+STS4006 Advanced Competitive Coding - II 22BCE G1+TG1
+STS4006 Advanced Competitive Coding - II 22BCE G2+TG2
+STS4006 Advanced Competitive Coding - II 22BCE A1+TA1
+STS4006 Advanced Competitive Coding - II 22BCE A2+TA2
+STS4006 Advanced Competitive Coding - II 22BCE B1+TB1
+STS4006 Advanced Competitive Coding - II 22BCE B2+TB2
+STS4006 Advanced Competitive Coding - II 22BCE C1+TC1
+STS4006 Advanced Competitive Coding - II 22BCE C2+TC2
+STS4006 Advanced Competitive Coding - II 22BCE D1+TD1
+STS4006 Advanced Competitive Coding - II 22BCE D2+TD2
+STS4006 Advanced Competitive Coding - II 22BCE E1+TE1
+STS4006 Advanced Competitive Coding - II 22BCE E2+TE2
+STS4006 Advanced Competitive Coding - II 22BCE F1+TF1
+STS4006 Advanced Competitive Coding - II 22BCE F2+TF2
+STS4005 Basic Competitive Coding - II 22BEC/22BME G1+TG1
+STS4006 Advanced Competitive Coding - II 22BCE G2+TG2
+
+STS4006 Advanced Competitive Coding - II 22BCE A1+TA1
+STS4006 Advanced Competitive Coding - II 22BCE A2+TA2
+STS4006 Advanced Competitive Coding - II 22BCE B1+TB1
+STS4006 Advanced Competitive Coding - II 22BCE B2+TB2
+STS4006 Advanced Competitive Coding - II 22BCE C1+TC1
+STS4006 Advanced Competitive Coding - II 22BCE C2+TC2
+STS4006 Advanced Competitive Coding - II 22BCE D1+TD1
+STS4006 Advanced Competitive Coding - II 22BCE D2+TD2
+STS4006 Advanced Competitive Coding - II 22BCE E1+TE1
+STS4006 Advanced Competitive Coding - II 22BCE E2+TE2
+STS4006 Advanced Competitive Coding - II 22BCE F1+TFF1
+STS4006 Advanced Competitive Coding - II 22BCE F2+SF1
+STS4006 Advanced Competitive Coding - II 22BCE G1+TG1
+STS4006 Advanced Competitive Coding - II 22BCE G2+TG2
+STS4006 Advanced Competitive Coding - II 22BCE F1+TFF1
+STS4006 Advanced Competitive Coding - II 22BCE F2+SF1
+SWE2002 Human Computer Interaction 23MIC/23MIS E1+TE1
+SWE2002 Human Computer Interaction 23MIC/23MIS E2+TE2
+SWE2002 Human Computer Interaction 23MIC/23MIS G1+TG1
+SWE2002 Human Computer Interaction 23MIC/23MIS G2+TG2
+SWE2002 Human Computer Interaction 23MIC/23MIS E1+TE1
+SWE2002 Human Computer Interaction 23MIC/23MIS E2+TE2
+SWE2003 Requirements Engineering Management 23MIC/23MIS C1+TC1
+SWE2003 Requirements Engineering Management 23MIC/23MIS C2+TC2
+SWE2003 Requirements Engineering Management 23MIC/23MIS F1+TFF1
+SWE2003 Requirements Engineering Management 23MIC/23MIS F2+TF2
+SWE2003 Requirements Engineering Management 23MIC/23MIS C1+TC1
+SWE2003 Requirements Engineering Management 23MIC/23MIS F2+TF2
+SWE2004 Software Design and Architecture 23MIS A1+TA1
+SWE2004 Software Design and Architecture 23MIS A2+TA2
+SWE2004 Software Design and Architecture 23MIS B1+TB1
+SWE2004 Software Design and Architecture 23MIS B2+TB2
+SWE2006 Database Systems 23MIC/23MIS C1+TC1
+SWE2006 Database Systems 23MIC/23MIS C2+TC2
+SWE2006 Database Systems 23MIC/23MIS D1+TD1
+SWE2006 Database Systems 23MIC/23MIS D2+TD2
+SWE2006 Database Systems 23MIC/23MIS C1+TC1
+SWE2006 Database Systems 23MIC/23MIS C2+TC2
+SWE2006 Database Systems 23MIC/23MIS D1+TD1
+SWE2006 Database Systems 23MIC/23MIS D2+TD2
+SWE2008 Object Oriented Analysis and Design 22MIS C1+TC1
+SWE2008 Object Oriented Analysis and Design 22MIS C2+TC2
+SWE3001 Introduction to Computer Networks 23MIC/23MIS E1+TE1
+SWE3001 Introduction to Computer Networks 23MIC/23MIS E2+TE2
+SWE3001 Introduction to Computer Networks 23MIC/23MIS F1+TFF1
+SWE3001 Introduction to Computer Networks 23MIC/23MIS F2+TF2
+SWE3001 Introduction to Computer Networks 23MIC/23MIS E1+TE1
+
+SWE3001 Introduction to Computer Networks 23MIC/23MIS E2+TE2
+SWE3001 Introduction to Computer Networks 23MIC/23MIS F1+TFF1
+SWE3001 Introduction to Computer Networks 23MIC/23MIS F2+SF1
+SWE3003 Information and System Security 22MIC/22MIS D1+TD1
+SWE3003 Information and System Security 22MIC/22MIS D2+TD2
+SWE3003 Information and System Security 22MIC/22MIS E1+TE1
+SWE3003 Information and System Security 22MIC/22MIS E2+TE2
+SWE3005 Principles of Design Patterns 22MIS C1+TC1
+SWE3005 Principles of Design Patterns 22MIS C2+TC2
+SWE3005 Principles of Design Patterns 22MIS C2+TC2
+SWE4001 Internet and Web Technologies 21MIS F1+TFF1
+SWE4002 Software Testing 22MIC/22MIS D1+TD1
+SWE4002 Software Testing 22MIC/22MIS D2+TD2
+SWE4002 Software Testing 22MIC/22MIS D1+TD1
+SWE4002 Software Testing 22MIC/22MIS D2+TD2
+SWE4002 Software Testing 22MIC/22MIS E1+TE1
+SWE4002 Software Testing 22MIC/22MIS E2+TE2
+SWE4002 Software Testing 21MIC E1+TE1
+SWE4003 Concepts of Mobile Application Development 22MIC/22MIS A1+TA1
+SWE4003 Concepts of Mobile Application Development 22MIC/22MIS B1+TB1
+SWE4003 Concepts of Mobile Application Development 22MIC/22MIS A2+TA2
+SWE4003 Concepts of Mobile Application Development 22MIC/22MIS B2+TB2
+SWE4003 Concepts of Mobile Application Development 21MIC/21MIS A1+TA1
+SWE4003 Concepts of Mobile Application Development 21MIC/21MIS B1+TB1
+SWE4003 Concepts of Mobile Application Development 21MIC/21MIS A2+TA2
+SWE4003 Concepts of Mobile Application Development 21MIC/21MIS B2+TB2
+SWE4004 Cloud Computing and its Applications 22MIS F1+TFF1
+SWE4004 Cloud Computing and its Applications 22MIS F2+SF1
+SWE4005 Storage Technologies and Management 22MIS F1+TFF1
+SWE4005 Storage Technologies and Management 22MIS F2+SF1
+SWE4005 Storage Technologies and Management 21MIC/21MIS G1+TG1
+SWE4005 Storage Technologies and Management 21MIC/21MIS G2+TG2
+SWE4005 Storage Technologies and Management 21MIC/21MIS D1+TD1
+SWE4005 Storage Technologies and Management 21MIC/21MIS D2+TD2
+SWE4006 Advanced Server Side Programming 22MIC B1+TB1
+SWE4006 Advanced Server Side Programming 22MIC B2+TB2
+SWE4006 Advanced Server Side Programming 22MIC B1+TB1
+SWE4006 Advanced Server Side Programming 22MIC E2+TE2
+SWE4007 Software Application Architecture 21MIC D1+TD1
+SWE4007 Software Application Architecture 21MIC D2+TD2
+SWE4007 Software Application Architecture 21MIC G2+TG2
+SWE4008 Application Development and Deployment Architecture 22MIC A1+TA1
+SWE4008 Application Development and Deployment Architecture 22MIC A2+TA2
+SWE4008 Application Development and Deployment Architecture 22MIC A1+TA1
+SWE4008 Application Development and Deployment Architecture 22MIC A2+TA2
+SWE4008 Application Development and Deployment Architecture 21MIC/21MIS F1+TFF1
+SWE4008 Application Development and Deployment Architecture 21MIC/21MIS F2+SF1
+SWE4008 Application Development and Deployment Architecture 21MIC/21MIS F1+TFF1
+SWE4008 Application Development and Deployment Architecture 21MIC/21MIS F2+SF1
+STS2006 Getting Started to Skill Enhancement 21BCE/21BEC/21BME D1+TD1
+CSE4037 Reinforcement Learning 21BCE A1+TA1
+CSE4037 Reinforcement Learning 21BCE A2+TA2
