@@ -16,30 +16,23 @@ You need to have Python and pip installed on your computer. You can download Pyt
 1. Clone the computer
 
 ```console
-git clone git@github.com:suryatejess/vit-course-reg-planner.git
+git clone https://github.com/suryatejess/vit-course-reg-planner.git
 ```
 > If you **do not have git installed on your computer or dont know how ot use git**, just download the zip file. 
 
 2. Install pandas library
 ```
-pip3 install pandas
+pip3 install -r requirements.txt
 ```
 or 
 ```
-pip install pandas
-```
-3. Install ics library 
-```
-pip3 install ics
-```
-or 
-```
-pip install ics
+pip install -r requirements.txt
 ```
 
-4. Go to the project directory.
 
-5. Run the program and design your timetable.
+3. Go to the project directory.
+
+4. Run the program and design your timetable.
 ```
 python3 primary_window.py
 ```
